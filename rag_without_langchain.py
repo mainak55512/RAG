@@ -1,11 +1,45 @@
 import os
 import re
+import math
+import sys
 import requests
 import pypdf
 import chromadb
 from dotenv import load_dotenv
 
 load_dotenv()
+
+
+def clearMsg():
+    sys.stdout.write(f"\r{' ':<60}\r")
+    sys.stdout.flush()
+
+
+def print_status(message=""):
+    sys.stdout.write(f"\r{message:<60}")
+    sys.stdout.flush()
+
+
+def dot_product(vec_a, vec_b):
+    total_sum = 0
+    for i in range(len(vec_a)):
+        total_sum += vec_a[i] * vec_b[i]
+    return total_sum
+
+
+def magnitude(vec):
+    return math.sqrt(sum(x**2 for x in vec))
+
+
+def cosine_similarity(vec_a, vec_b):
+    """
+    cosθ = (A . B)/(|A||B|)
+    """
+    mag_a = magnitude(vec_a)
+    mag_b = magnitude(vec_b)
+    if mag_a == 0 or mag_b == 0:
+        return 0.0
+    return dot_product(vec_a, vec_b) / (mag_a * mag_b)
 
 
 # Reads PDF
@@ -84,12 +118,35 @@ def callLLM(system_prompt, user_prompt):
     return response.json()["choices"][0]["message"]["content"]
 
 
+def getSimilarity(collection, query_embeddings, k):
+    all_data = collection.get(include=["embeddings", "documents"])
+    documents = all_data["documents"]
+    embeddings = all_data["embeddings"]
+    if documents is None or embeddings is None or len(documents) == 0:
+        return []
+
+    scored_chunks = []
+    for i in range(len(documents)):
+        doc = documents[i]
+        emb = embeddings[i]
+
+        score = cosine_similarity(query_embeddings, emb)
+        scored_chunks.append({"document": doc, "score": score})
+
+    scored_chunks.sort(key=lambda x: x["score"], reverse=True)
+    top_chunks = [item["document"] for item in scored_chunks[:k]]
+    return top_chunks
+
+
 if __name__ == "__main__":
     # User query
-    query = "What is the significance of Regulatory guidelines while maintaining strict data integrity"
+    query = "what is the gist of the document"
 
     # Reading the pdf
-    text = readFile(file_path="documents/test.pdf")
+    text = readFile(file_path="documents/complience.pdf")
+
+    print_status("PDF file loaded")
+    print_status("Ingestion started...")
 
     # Creating chunks out of the pdf text
     chunks = createChunks(text=text, chunk_size=50, overlap=10)
@@ -103,14 +160,19 @@ if __name__ == "__main__":
     # Storing the chunk embeddings in chroma
     storeChroma(chunk_list=chunks, raw_embeddings=raw_embeddings, collection=collection)
 
+    print_status("Ingestion complete...")
+
     # creating embeddings for the user query
     query_embeddings = createQueryEmbedding(query=query)
 
-    # Querying chroma (similarity search)
-    results = collection.query(query_embeddings=[query_embeddings], n_results=5)
+    print_status("Started similarity search...")
 
-    # getting the texts for associated embeddings
-    retrieved_chunks = results["documents"][0] if results["documents"] else []
+    # Querying chroma (similarity search)
+    retrieved_chunks = getSimilarity(
+        collection=collection, query_embeddings=query_embeddings, k=5
+    )
+
+    print_status("Similar chunks retrieved...")
 
     # Creating context string to pass to llm
     context = "\n---\n".join(retrieved_chunks)
@@ -126,7 +188,11 @@ if __name__ == "__main__":
     Question: {query}
     Answer:"""
 
+    print_status("Prompting LLM...")
+
     # Calling GROQ Api
     response = callLLM(system_prompt=system_prompt, user_prompt=user_prompt)
 
+    clearMsg()
+    print("\rResponse:\n", flush=True)
     print(response)
