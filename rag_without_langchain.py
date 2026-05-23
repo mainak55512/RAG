@@ -1,10 +1,11 @@
 import os
 import re
+import json
 import math
 import sys
 import requests
 import pypdf
-import chromadb
+import sqlite3
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -86,16 +87,35 @@ def createQueryEmbedding(query):
     return createEmbeddings(chunk_list=[query])[0]
 
 
-# Instansiate chroma instance and return the collection
-def getChromaCollection(name):
-    chroma_client = chromadb.PersistentClient(path="./chroma_db")
-    return chroma_client.get_or_create_collection(name=name)
+# Getting SQL connection
+def getSqliteConnection(db_path="./rag_pipeline.db", clear_on_start=True):
+    conn = sqlite3.connect(db_path)
+
+    if clear_on_start:
+        conn.execute("DROP TABLE IF EXISTS documents;")
+        conn.commit()
+
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS documents (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            chunk_text TEXT,
+            embedding_json TEXT
+        );
+    """)
+    conn.commit()
+    return conn
 
 
-# Store the embeddings in Chroma db
-def storeChroma(chunk_list, raw_embeddings, collection):
-    string_ids = [f"id_{i}" for i in range(len(chunk_list))]
-    collection.add(embeddings=raw_embeddings, documents=chunk_list, ids=string_ids)
+# Storing the data in SQL, embeddings ke string e convert korte hobe to store as Text
+def storeSqlite(chunk_list, raw_embeddings, conn):
+    cursor = conn.cursor()
+    for i in range(len(chunk_list)):
+        embedding_string = json.dumps(raw_embeddings[i])
+        cursor.execute(
+            "INSERT INTO documents (chunk_text, embedding_json) VALUES (?, ?)",
+            (chunk_list[i], embedding_string),
+        )
+    conn.commit()
 
 
 # Calls GROQ api
@@ -118,17 +138,18 @@ def callLLM(system_prompt, user_prompt):
     return response.json()["choices"][0]["message"]["content"]
 
 
-def getSimilarity(collection, query_embeddings, k):
-    all_data = collection.get(include=["embeddings", "documents"])
-    documents = all_data["documents"]
-    embeddings = all_data["embeddings"]
-    if documents is None or embeddings is None or len(documents) == 0:
+# Checks cosine similarity between query and stored chunks
+def getSimilarity(conn, query_embeddings, k):
+    cursor = conn.execute("SELECT chunk_text, embedding_json FROM documents")
+    rows = cursor.fetchall()
+
+    if not rows:
         return []
 
     scored_chunks = []
-    for i in range(len(documents)):
-        doc = documents[i]
-        emb = embeddings[i]
+    for row in rows:
+        doc = row[0]
+        emb = json.loads(row[1])
 
         score = cosine_similarity(query_embeddings, emb)
         scored_chunks.append({"document": doc, "score": score})
@@ -140,12 +161,13 @@ def getSimilarity(collection, query_embeddings, k):
 
 if __name__ == "__main__":
     # User query
-    query = "what is the gist of the document"
+    query = "What are the elements of complience audit"
+
+    print_status("Loading PDF file...")
 
     # Reading the pdf
     text = readFile(file_path="documents/complience.pdf")
 
-    print_status("PDF file loaded")
     print_status("Ingestion started...")
 
     # Creating chunks out of the pdf text
@@ -155,10 +177,12 @@ if __name__ == "__main__":
     raw_embeddings = createEmbeddings(chunks)
 
     # instansiating chroma
-    collection = getChromaCollection(name="compliance_collection")
+    # collection = getChromaCollection(name="compliance_collection")
+    conn = getSqliteConnection()
 
     # Storing the chunk embeddings in chroma
-    storeChroma(chunk_list=chunks, raw_embeddings=raw_embeddings, collection=collection)
+    # storeChroma(chunk_list=chunks, raw_embeddings=raw_embeddings, collection=collection)
+    storeSqlite(chunk_list=chunks, raw_embeddings=raw_embeddings, conn=conn)
 
     print_status("Ingestion complete...")
 
@@ -168,9 +192,7 @@ if __name__ == "__main__":
     print_status("Started similarity search...")
 
     # Querying chroma (similarity search)
-    retrieved_chunks = getSimilarity(
-        collection=collection, query_embeddings=query_embeddings, k=5
-    )
+    retrieved_chunks = getSimilarity(conn=conn, query_embeddings=query_embeddings, k=5)
 
     print_status("Similar chunks retrieved...")
 
