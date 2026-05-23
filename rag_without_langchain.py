@@ -176,15 +176,13 @@ if __name__ == "__main__":
     # Creating embeddings for the chunks
     raw_embeddings = createEmbeddings(chunks)
 
-    # instansiating chroma
-    # collection = getChromaCollection(name="compliance_collection")
+    # initiating sqlite
     conn = getSqliteConnection()
 
-    # Storing the chunk embeddings in chroma
-    # storeChroma(chunk_list=chunks, raw_embeddings=raw_embeddings, collection=collection)
+    # Storing the chunk embeddings in sqlite
     storeSqlite(chunk_list=chunks, raw_embeddings=raw_embeddings, conn=conn)
 
-    print_status("Ingestion complete...")
+    print_status("Generating query embeddings...")
 
     # creating embeddings for the user query
     query_embeddings = createQueryEmbedding(query=query)
