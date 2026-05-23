@@ -1,5 +1,6 @@
 import os
 import re
+import time
 import json
 import math
 import sys
@@ -7,17 +8,18 @@ import requests
 import pypdf
 import sqlite3
 from dotenv import load_dotenv
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 load_dotenv()
 
 
 def clearMsg():
-    sys.stdout.write(f"\r{' ':<60}\r")
+    sys.stdout.write(f"\r{' ':<100}\r")
     sys.stdout.flush()
 
 
 def print_status(message=""):
-    sys.stdout.write(f"\r{message:<60}")
+    sys.stdout.write(f"\r{message:<100}")
     sys.stdout.flush()
 
 
@@ -159,28 +161,61 @@ def getSimilarity(conn, query_embeddings, k):
     return top_chunks
 
 
+# Reads, chunks and creates embeddings for a single pdf
+def processPDF(file_path):
+    print_status("Reading file: " + file_path)
+    text = readFile(file_path)
+    if not text:
+        return file_path, [], []
+
+    print_status("Chunking document: " + file_path)
+    chunks = createChunks(text, chunk_size=50, overlap=10)
+
+    try:
+        print_status("Creating embeddings for: " + file_path)
+        embeddings = createEmbeddings(chunks)
+        return file_path, chunks, embeddings
+    except Exception as e:
+        return file_path, [], []
+
+
+# Walks the directory and processes every pdf concurrently
+def ingestDirectory(target_dir, db_conn):
+    if not os.path.exists(target_dir):
+        print(f"Directory '{target_dir}' does not exist.")
+        return
+
+    pdf_paths = [
+        os.path.join(target_dir, f)
+        for f in os.listdir(target_dir)
+        if f.lower().endswith(".pdf")
+    ]
+
+    if not pdf_paths:
+        print("No PDF files found in the directory.")
+        return
+
+    with ProcessPoolExecutor() as executor:
+        futures = {executor.submit(processPDF, path): path for path in pdf_paths}
+
+        for future in as_completed(futures):
+            file_path, chunks, embeddings = future.result()
+
+            if chunks and embeddings:
+                storeSqlite(chunks, embeddings, db_conn)
+
+
 if __name__ == "__main__":
     # User query
-    query = "What are the elements of complience audit"
-
-    print_status("Loading PDF file...")
-
-    # Reading the pdf
-    text = readFile(file_path="documents/complience.pdf")
-
-    print_status("Ingestion started...")
-
-    # Creating chunks out of the pdf text
-    chunks = createChunks(text=text, chunk_size=50, overlap=10)
-
-    # Creating embeddings for the chunks
-    raw_embeddings = createEmbeddings(chunks)
+    query = "How many types of loops are present in python?"
 
     # initiating sqlite
     conn = getSqliteConnection()
 
-    # Storing the chunk embeddings in sqlite
-    storeSqlite(chunk_list=chunks, raw_embeddings=raw_embeddings, conn=conn)
+    print_status("Starting Ingestion...")
+
+    # Ingesting all pdfs from a directory
+    ingestDirectory("documents", db_conn=conn)
 
     print_status("Generating query embeddings...")
 
@@ -191,6 +226,7 @@ if __name__ == "__main__":
 
     # Querying chroma (similarity search)
     retrieved_chunks = getSimilarity(conn=conn, query_embeddings=query_embeddings, k=5)
+    conn.close()
 
     print_status("Similar chunks retrieved...")
 

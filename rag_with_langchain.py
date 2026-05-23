@@ -14,7 +14,7 @@ loader = PyPDFLoader("documents/complience.pdf")
 docs = loader.load()
 
 # Splitting text into chunks
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=220, chunk_overlap=40)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=50, chunk_overlap=10)
 final_chunks = text_splitter.split_documents(docs)
 
 embedding_model = HuggingFaceEndpointEmbeddings(
@@ -24,16 +24,16 @@ embedding_model = HuggingFaceEndpointEmbeddings(
 )
 
 # Storing embeddings for the chunks in Chroma (one time)
-# vector_store = Chroma.from_documents(
-#     documents=final_chunks, embedding=embedding_model, persist_directory="./chroma_db"
-# )
-
-vector_store = Chroma(
-    persist_directory="./chroma_db", embedding_function=embedding_model
+vector_store = Chroma.from_documents(
+    documents=final_chunks, embedding=embedding_model, persist_directory="./chroma_db"
 )
 
+# vector_store = Chroma(
+#     persist_directory="./chroma_db", embedding_function=embedding_model
+# )
+
 # User query
-query = "What is the main topic of the PDF?"
+query = "What are the elements of complience audit"
 
 # Similarity search for the query in chroma
 docs_mapping = vector_store.similarity_search(query, k=5)
