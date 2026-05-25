@@ -418,7 +418,7 @@ func main() {
 	conn, _ := getSQLiteConnection("./rag.db", true)
 
 	printStatus("Starting Ingestion...")
-	ingestDirectory("../documents", conn)
+	ingestDirectory("documents", conn)
 
 	userQuery := "How many types of loops are present in Python?"
 
