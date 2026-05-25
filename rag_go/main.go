@@ -413,6 +413,37 @@ func apiCall(systemPrompt, userPrompt string) (string, error) {
 	return respBody.Choices[0].Message.Content, nil
 }
 
+func getSystemPromptTemplate(context string) string {
+	data, err := os.ReadFile("prompts/system_prompt.md")
+	if err != nil {
+		fmt.Println("Error reading file:", err)
+		return ""
+	}
+
+	content := string(data)
+	if context != "" {
+		content = strings.ReplaceAll(content, "{context}", context)
+	}
+	return content
+}
+
+func getUserPromptTemplate(context, query string) string {
+	data, err := os.ReadFile("prompts/user_prompt.md")
+	if err != nil {
+		fmt.Println("Error reading file:", err)
+		return ""
+	}
+
+	content := string(data)
+	if context != "" {
+		content = strings.ReplaceAll(content, "{context}", context)
+	}
+	if query != "" {
+		content = strings.ReplaceAll(content, "{query}", query)
+	}
+	return content
+}
+
 func main() {
 	godotenv.Load()
 	conn, _ := getSQLiteConnection("./rag.db", true)
@@ -431,14 +462,9 @@ func main() {
 	printStatus("Generating context...")
 	context := strings.Join(retrievedChunks, "\n---\n")
 
-	systemPrompt := `You are a helpful assistant. Answer the user's question using ONLY the provided text context. 
-If the answer cannot be found in the context, say 'I cannot find the answer in the document.' 
-Do not make up information or use outside knowledge.`
+	systemPrompt := getSystemPromptTemplate("")
 
-	userPrompt := fmt.Sprintf(`Context:
-%s
-Question: %s
-Answer:`, context, userQuery)
+	userPrompt := getUserPromptTemplate(context, userQuery)
 
 	printStatus("Prompting LLM...")
 
@@ -447,5 +473,4 @@ Answer:`, context, userQuery)
 	clearMsg()
 	fmt.Printf("\rResponse:\n\n")
 	fmt.Println(resp)
-
 }

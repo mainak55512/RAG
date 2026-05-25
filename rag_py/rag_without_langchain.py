@@ -205,6 +205,29 @@ def ingestDirectory(target_dir, db_conn):
                 storeSqlite(chunks, embeddings, db_conn)
 
 
+def get_system_prompt_template(context=""):
+    with open("prompts/system_prompt.md", "r", encoding="utf-8") as file:
+        content = file.read()
+
+    if context:
+        content = content.replace("{context}", context)
+
+    return content
+
+
+def get_user_prompt_template(context="", query=""):
+    with open("prompts/user_prompt.md", "r", encoding="utf-8") as file:
+        content = file.read()
+
+    if context:
+        content = content.replace("{context}", context)
+
+    if query:
+        content = content.replace("{query}", query)
+
+    return content
+
+
 if __name__ == "__main__":
     # User query
     query = "How many types of loops are present in python?"
@@ -233,16 +256,20 @@ if __name__ == "__main__":
     # Creating context string to pass to llm
     context = "\n---\n".join(retrieved_chunks)
 
-    system_prompt = (
-        "You are a helpful assistant. Answer the user's question using ONLY the provided text context. "
-        "If the answer cannot be found in the context, say 'I cannot find the answer in the document.' "
-        "Do not make up information or use outside knowledge."
-    )
+    # system_prompt = (
+    #     "You are a helpful assistant. Answer the user's question using ONLY the provided text context. "
+    #     "If the answer cannot be found in the context, say 'I cannot find the answer in the document.' "
+    #     "Do not make up information or use outside knowledge."
+    # )
 
-    user_prompt = f"""Context:
-    {context}
-    Question: {query}
-    Answer:"""
+    system_prompt = get_system_prompt_template()
+
+    # user_prompt = f"""Context:
+    # {context}
+    # Question: {query}
+    # Answer:"""
+
+    user_prompt = get_user_prompt_template(context=context, query=query)
 
     print_status("Prompting LLM...")
 
