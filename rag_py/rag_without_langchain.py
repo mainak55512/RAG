@@ -414,13 +414,6 @@ class ManualHNSW:
         for l in range(self.max_layer, 0, -1):
             curr_obj = self._search_layer(query_vector, curr_obj, l)
 
-        closest_obj = self._search_layer(query_vector, curr_obj, 0)
-        immediate = self.nodes.get(closest_obj, {}).get(0, [])
-
-        secondary = []
-        for n_id in immediate:
-            secondary.extend(self.nodes.get(n_id, {}).get(0, []))
-
         candidates = self._search_layer_ef(query_vector, curr_obj, 0, self.ef_search)
 
         top_k_ids = self.get_top_k(query_vector, candidates, k)
