@@ -381,9 +381,12 @@ class ManualHNSW:
             )
             curr_max_links = self.M0 if l == 0 else self.M
 
-            curr_obj = self.get_top_k(new_vector, candidates, 1)[0]
+            # curr_obj = self.get_top_k(new_vector, candidates, 1)[0]
+
+            # top_neighbors = self.get_top_k(new_vector, candidates, curr_max_links)
 
             top_neighbors = self.get_top_k(new_vector, candidates, curr_max_links)
+            curr_obj = top_neighbors[0]
 
             for closest_node in top_neighbors:
                 self.nodes[new_node_id][l].append(closest_node)
