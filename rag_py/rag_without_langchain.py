@@ -181,7 +181,7 @@ def processPDF(file_path):
         return file_path, [], []
 
     print_status("Chunking document: " + file_path)
-    chunks = createChunks(text, chunk_size=50, overlap=10)
+    chunks = createChunks(text, chunk_size=220, overlap=40)
 
     try:
         print_status("Creating embeddings for: " + file_path)
@@ -243,7 +243,7 @@ def getUserPromptTemplate(context="", query=""):
 
 
 class ManualHNSW:
-    def __init__(self, conn, dim=384, M=16, ef_construction=32, ef_search=32):
+    def __init__(self, conn, dim=384, M=16, ef_construction=200, ef_search=128):
         self.dim = dim
         self.conn = conn
         self.M = M
@@ -465,18 +465,18 @@ class ManualHNSW:
 
 if __name__ == "__main__":
     # User query
-    query = "What is list comprehension?"
-
-    conn = getSqliteConnection(clear_on_start=False)
+    query = "What is the difference between list and numpy array?"
 
     ingest = False
 
     if ingest:
+        conn = getSqliteConnection(clear_on_start=True)
         hnsw = ManualHNSW(conn)
         print_status("Starting Ingestion...")
         ingestDirectory("documents", db_conn=conn, graph=hnsw)
         print_status("Ingestion complete...")
     else:
+        conn = getSqliteConnection(clear_on_start=False)
         hnsw_graph = ManualHNSW(conn)
         hnsw_graph.load_from_file("hnsw.json")
 
@@ -487,6 +487,11 @@ if __name__ == "__main__":
 
         print_status("Started similarity search...")
 
+        # Querying chroma (similarity search)
+        # retrieved_chunks = getSimilarity(
+        #     conn=conn, query_embeddings=query_embeddings, k=5
+        # )
+
         retrieved_chunks = hnsw_graph.search(query, 5)
 
         conn.close()
@@ -496,7 +501,7 @@ if __name__ == "__main__":
         # Creating context string to pass to llm
         context = "\n---\n".join(retrieved_chunks)
 
-        # print("Context:\n\n", context)
+        print("Context:\n\n", context)
 
         system_prompt = getSystemPromptTemplate()
 
