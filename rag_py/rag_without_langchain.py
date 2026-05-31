@@ -1,4 +1,5 @@
 import os
+import heapq
 import random
 import re
 import time
@@ -181,7 +182,7 @@ def processPDF(file_path):
         return file_path, [], []
 
     print_status("Chunking document: " + file_path)
-    chunks = createChunks(text, chunk_size=220, overlap=40)
+    chunks = createChunks(text, chunk_size=250, overlap=50)
 
     try:
         print_status("Creating embeddings for: " + file_path)
@@ -317,7 +318,7 @@ class ManualHNSW:
             candidates.sort(key=lambda x: x[1])
             curr_node, curr_dist = candidates.pop(0)
 
-            v_pool.sort(key=lambda x: x[1])
+            # v_pool.sort(key=lambda x: x[1])
             if curr_dist > v_pool[-1][1]:
                 break
 
@@ -327,14 +328,14 @@ class ManualHNSW:
                     visited.add(neighbor)
 
                     neighbor_dist = self.cosine_distance(query_vector, neighbor)
-                    v_pool.sort(key=lambda x: x[1])
+                    # v_pool.sort(key=lambda x: x[1])
 
                     if neighbor_dist < v_pool[-1][1] or len(v_pool) < ef:
                         candidates.append((neighbor, neighbor_dist))
                         v_pool.append((neighbor, neighbor_dist))
+                        v_pool.sort(key=lambda x: x[1])
 
                         if len(v_pool) > ef:
-                            v_pool.sort(key=lambda x: x[1])
                             v_pool.pop()
 
         return [node_id for node_id, _ in v_pool]
@@ -378,20 +379,25 @@ class ManualHNSW:
             candidates = self._search_layer_ef(
                 new_vector, curr_obj, l, self.ef_construction
             )
-            closest_node = self.get_top_k(new_vector, candidates, 1)[0]
             curr_max_links = self.M0 if l == 0 else self.M
-            self.nodes[new_node_id][l].append(closest_node)
-            self.nodes[closest_node][l].append(new_node_id)
 
-            if len(self.nodes[closest_node][l]) > curr_max_links:
-                self.nodes[closest_node][l] = self.prune_to_max_connection(
-                    closest_node, l, curr_max_links
-                )
+            curr_obj = self.get_top_k(new_vector, candidates, 1)[0]
+
+            top_neighbors = self.get_top_k(new_vector, candidates, curr_max_links)
+
+            for closest_node in top_neighbors:
+                self.nodes[new_node_id][l].append(closest_node)
+                self.nodes[closest_node][l].append(new_node_id)
+
+                if len(self.nodes[closest_node][l]) > curr_max_links:
+                    self.nodes[closest_node][l] = self.prune_to_max_connection(
+                        closest_node, l, curr_max_links
+                    )
+
             if len(self.nodes[new_node_id][l]) > curr_max_links:
                 self.nodes[new_node_id][l] = self.prune_to_max_connection(
                     new_node_id, l, curr_max_links
                 )
-            curr_obj = closest_node
 
         if insert_layer > self.max_layer:
             self.max_layer = insert_layer
@@ -400,10 +406,8 @@ class ManualHNSW:
     def search(self, query, k):
         query_vector = createQueryEmbedding(query)
 
-        if self.total_nodes < 10000:
-            print_status(
-                "Total nodes are less than, 10000, falling back to bruteforce search"
-            )
+        if self.total_nodes < 1000:
+            print("Total nodes are less than, 10000, falling back to bruteforce search")
             return getSimilarity(self.conn, query_vector, k)
 
         if not self.enter_node or not self.nodes:
@@ -465,9 +469,10 @@ class ManualHNSW:
 
 if __name__ == "__main__":
     # User query
-    query = "What is the difference between list and numpy array?"
+    query = "What is the difference between lists and tuples?"
 
     ingest = False
+    # ingest = True
 
     if ingest:
         conn = getSqliteConnection(clear_on_start=True)
@@ -475,6 +480,7 @@ if __name__ == "__main__":
         print_status("Starting Ingestion...")
         ingestDirectory("documents", db_conn=conn, graph=hnsw)
         print_status("Ingestion complete...")
+        conn.close()
     else:
         conn = getSqliteConnection(clear_on_start=False)
         hnsw_graph = ManualHNSW(conn)
@@ -487,12 +493,8 @@ if __name__ == "__main__":
 
         print_status("Started similarity search...")
 
-        # Querying chroma (similarity search)
-        # retrieved_chunks = getSimilarity(
-        #     conn=conn, query_embeddings=query_embeddings, k=5
-        # )
-
-        retrieved_chunks = hnsw_graph.search(query, 5)
+        # Querying HNSW(similarity search)
+        retrieved_chunks = hnsw_graph.search(query, 10)
 
         conn.close()
 
@@ -501,7 +503,7 @@ if __name__ == "__main__":
         # Creating context string to pass to llm
         context = "\n---\n".join(retrieved_chunks)
 
-        print("Context:\n\n", context)
+        # print("Context:\n\n", context)
 
         system_prompt = getSystemPromptTemplate()
 
