@@ -16,16 +16,6 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 load_dotenv()
 
 
-def clearMsg():
-    sys.stdout.write(f"\r{' ':<100}\r")
-    sys.stdout.flush()
-
-
-def print_status(message=""):
-    sys.stdout.write(f"\r{message:<100}")
-    sys.stdout.flush()
-
-
 def dot_product(vec_a, vec_b):
     total_sum = 0
     for i in range(len(vec_a)):
@@ -176,17 +166,20 @@ def getSimilarity(conn, query_embeddings, k):
 
 # Reads, chunks and creates embeddings for a single pdf
 def processPDF(file_path):
-    print_status("Reading file: " + file_path)
+    print("[+] Processing: " + file_path)
     text = readFile(file_path)
     if not text:
         return file_path, [], []
 
-    print_status("Chunking document: " + file_path)
+    print("[+] Chunking document: " + file_path)
     chunks = createChunks(text, chunk_size=250, overlap=50)
+    print("[✓] Generated chunks for: " + file_path)
 
     try:
-        print_status("Creating embeddings for: " + file_path)
+        print("[+] Creating embeddings for: " + file_path)
         embeddings = createEmbeddings(chunks)
+        print("[✓] Generated embeddings for: " + file_path)
+        print("[✓] Processed document: " + file_path)
         return file_path, chunks, embeddings
     except Exception as e:
         return file_path, [], []
@@ -195,7 +188,7 @@ def processPDF(file_path):
 # Walks the directory and processes every pdf concurrently
 def ingestDirectory(target_dir, db_conn, graph):
     if not os.path.exists(target_dir):
-        print(f"Directory '{target_dir}' does not exist.")
+        print(f"[x] Directory '{target_dir}' does not exist.")
         return
 
     pdf_paths = [
@@ -205,9 +198,10 @@ def ingestDirectory(target_dir, db_conn, graph):
     ]
 
     if not pdf_paths:
-        print("No PDF files found in the directory.")
+        print("[x] No PDF files found in the directory.")
         return
 
+    print("[+] Storing embeddings...")
     with ProcessPoolExecutor() as executor:
         futures = {executor.submit(processPDF, path): path for path in pdf_paths}
 
@@ -218,6 +212,7 @@ def ingestDirectory(target_dir, db_conn, graph):
                 storeEmbedding(chunks, embeddings, db_conn, hnsw)
 
     hnsw.dump_to_file("hnsw.json")
+    print("[✓] Ingestion completed successfully")
 
 
 def getSystemPromptTemplate(context=""):
@@ -381,10 +376,6 @@ class ManualHNSW:
             )
             curr_max_links = self.M0 if l == 0 else self.M
 
-            # curr_obj = self.get_top_k(new_vector, candidates, 1)[0]
-
-            # top_neighbors = self.get_top_k(new_vector, candidates, curr_max_links)
-
             top_neighbors = self.get_top_k(new_vector, candidates, curr_max_links)
             curr_obj = top_neighbors[0]
 
@@ -472,7 +463,7 @@ class ManualHNSW:
 
 if __name__ == "__main__":
     # User query
-    query = "What is the difference between lists and tuples?"
+    query = "What is the difference between lists and numpy array?"
 
     ingest = False
     # ingest = True
@@ -480,28 +471,29 @@ if __name__ == "__main__":
     if ingest:
         conn = getSqliteConnection(clear_on_start=True)
         hnsw = ManualHNSW(conn)
-        print_status("Starting Ingestion...")
+        print("[+] Starting Ingestion...")
         ingestDirectory("documents", db_conn=conn, graph=hnsw)
-        print_status("Ingestion complete...")
+        print("[✓] Ingestion complete...")
         conn.close()
     else:
         conn = getSqliteConnection(clear_on_start=False)
         hnsw_graph = ManualHNSW(conn)
         hnsw_graph.load_from_file("hnsw.json")
 
-        print_status("Generating query embeddings...")
+        print("[+] Generating query embeddings...")
 
         # creating embeddings for the user query
         query_embeddings = createQueryEmbedding(query=query)
+        print("[✓] Query embeddings generated...")
 
-        print_status("Started similarity search...")
+        print("[+] Started similarity search...")
 
         # Querying HNSW(similarity search)
         retrieved_chunks = hnsw_graph.search(query, 10)
 
         conn.close()
 
-        print_status("Similar chunks retrieved...")
+        print("[✓] Similar chunks retrieved...")
 
         # Creating context string to pass to llm
         context = "\n---\n".join(retrieved_chunks)
@@ -512,11 +504,12 @@ if __name__ == "__main__":
 
         user_prompt = getUserPromptTemplate(context=context, query=query)
 
-        print_status("Prompting LLM...")
+        print("[+] Prompting LLM...")
 
         # Calling GROQ Api
         response = callLLM(system_prompt=system_prompt, user_prompt=user_prompt)
+        print("[✓] Response received...")
 
-        clearMsg()
-        print("\rResponse:\n", flush=True)
+        # clearMsg()
+        print("\n--- Response ---\n")
         print(response)
