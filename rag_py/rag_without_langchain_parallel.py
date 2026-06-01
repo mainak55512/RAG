@@ -11,7 +11,7 @@ import pypdf
 import sqlite3
 import struct
 from dotenv import load_dotenv
-from concurrent.futures import ProcessPoolExecutor, as_completed
+from concurrent.futures import ProcessPoolExecutor, as_completed, ThreadPoolExecutor
 
 load_dotenv()
 
@@ -129,7 +129,8 @@ def callLLM(system_prompt, user_prompt):
     response = requests.post(
         api_url,
         json={
-            "model": "openai/gpt-oss-120b",
+            # "model": "openai/gpt-oss-120b",
+            "model": "llama-3.1-8b-instant",
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
@@ -280,50 +281,91 @@ class ManualHNSW:
             return row[0]
         raise ValueError(f"Node ID {node_id} not found in the database.")
 
-    def cosine_distance(self, vec_a, node_b_id):
-        vec_b = self.get_vector(node_b_id)
+    def cosine_distance(self, vec_a, vec_b):
+        # vec_b = self.get_vector(node_b_id)
         return 1.0 - cosine_similarity(vec_a, vec_b)
 
     def _search_layer(self, query_vector, enter_node, layer):
         curr_node = enter_node
-        curr_dist = self.cosine_distance(query_vector, curr_node)
-        while True:
-            changed = False
-            neighbours = self.nodes.get(curr_node, {}).get(layer, [])
-            for neighbour in neighbours:
-                neighbour_dist = self.cosine_distance(query_vector, neighbour)
-                if neighbour_dist < curr_dist:
-                    curr_dist = neighbour_dist
-                    curr_node = neighbour
-                    changed = True
+        curr_dist = self.cosine_distance(query_vector, self.get_vector(curr_node))
 
-            if not changed:
-                break
+        with ThreadPoolExecutor() as executor:
+            while True:
+                changed = False
+                neighbours = self.nodes.get(curr_node, {}).get(layer, [])
+
+                if not neighbours:
+                    break
+
+                neighbour_vectors = [self.get_vector(n) for n in neighbours]
+
+                distances = list(
+                    executor.map(
+                        lambda n: self.cosine_distance(query_vector, n),
+                        neighbour_vectors,
+                    )
+                )
+
+                # for neighbour, neighbour_dist in (neighbours, distances):
+
+                for i in range(len(neighbours)):
+                    neighbour = neighbours[i]
+                    neighbour_dist = distances[i]
+                    # neighbour_dist = self.cosine_distance(query_vector, neighbour)
+                    if neighbour_dist < curr_dist:
+                        curr_dist = neighbour_dist
+                        curr_node = neighbour
+                        changed = True
+
+                if not changed:
+                    break
 
         return curr_node
 
     def _search_layer_ef(self, query_vector, enter_node, layer, ef):
         visited = {enter_node}
-        init_dist = self.cosine_distance(query_vector, enter_node)
+        init_dist = self.cosine_distance(query_vector, self.get_vector(enter_node))
 
         v_pool = [(enter_node, init_dist)]
         candidates = [(enter_node, init_dist)]
 
-        while candidates:
-            candidates.sort(key=lambda x: x[1])
-            curr_node, curr_dist = candidates.pop(0)
+        with ThreadPoolExecutor() as executor:
+            while candidates:
+                candidates.sort(key=lambda x: x[1])
+                curr_node, curr_dist = candidates.pop(0)
 
-            # v_pool.sort(key=lambda x: x[1])
-            if curr_dist > v_pool[-1][1]:
-                break
+                # v_pool.sort(key=lambda x: x[1])
+                if curr_dist > v_pool[-1][1]:
+                    break
 
-            neighbors = self.nodes.get(curr_node, {}).get(layer, [])
-            for neighbor in neighbors:
-                if neighbor not in visited:
+                neighbors = self.nodes.get(curr_node, {}).get(layer, [])
+                unvisited_neighbors = [n for n in neighbors if n not in visited]
+
+                if not unvisited_neighbors:
+                    continue
+
+                for neighbor in unvisited_neighbors:
                     visited.add(neighbor)
 
-                    neighbor_dist = self.cosine_distance(query_vector, neighbor)
-                    # v_pool.sort(key=lambda x: x[1])
+                neighbor_vectors = [self.get_vector(n) for n in unvisited_neighbors]
+
+                distances = list(
+                    executor.map(
+                        lambda n: self.cosine_distance(query_vector, n),
+                        neighbor_vectors,
+                    )
+                )
+
+                # for neighbor, neighbor_dist in (unvisited_neighbors, distances):
+
+                for i in range(len(unvisited_neighbors)):
+                    neighbor = unvisited_neighbors[i]
+                    neighbor_dist = distances[i]
+                    # if neighbor not in visited:
+                    #     visited.add(neighbor)
+
+                    #     neighbor_dist = self.cosine_distance(query_vector, neighbor)
+                    #     # v_pool.sort(key=lambda x: x[1])
 
                     if neighbor_dist < v_pool[-1][1] or len(v_pool) < ef:
                         candidates.append((neighbor, neighbor_dist))
@@ -339,7 +381,7 @@ class ManualHNSW:
         scored_neighbors = []
         # base_vector = self.get_vector(node_id)
         for n_id in neighbor_pool:
-            dist = self.cosine_distance(query_vector, n_id)
+            dist = self.cosine_distance(query_vector, self.get_vector(n_id))
             scored_neighbors.append((n_id, dist))
 
         scored_neighbors.sort(key=lambda x: x[1])
@@ -465,7 +507,7 @@ class ManualHNSW:
 
 if __name__ == "__main__":
     # User query
-    query = "What type of language is python?"
+    query = "What is the difference between list, tuple?"
 
     ingest = False
     # ingest = True
