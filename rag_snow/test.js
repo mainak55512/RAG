@@ -170,13 +170,16 @@ def add_numbers(a: int, b: int) -> int:
 
 
 var rag = new RAGUtil();
-// var chunkList = rag.createChunks(text, 100, 20);
+// var chunkList = rag.createChunks(text, 100, 10);
 // var rawEmbeddings = rag.createEmbeddings(chunkList);
 // rag.storeEmbeddings(chunkList, rawEmbeddings);
 
 var query = "What are the best practices for writing functions?";
-var queryEmbeddings = rag.createQueryEmbedding(query)
-var topChunks = rag.getSimilarity(queryEmbeddings, 5);
+// var queryEmbeddings = rag.createQueryEmbedding(query)
+
+
+
+var topChunks = rag.search(query, 5);
 
 var context = topChunks.join("\n---\n");
 
@@ -202,3 +205,4 @@ OUTPUT:
 - **Keep Them Short** – if a function grows beyond a screen or two of code, break it into smaller helper functions.
 
 */
+
