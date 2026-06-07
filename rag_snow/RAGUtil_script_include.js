@@ -2,13 +2,12 @@ var RAGUtil = Class.create();
 RAGUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
     initialize: function() {
-        this.dim = gs.getProperty("rag.dim");
-        this.M = gs.getProperty("rag.max_conn");
+        this.M = parseInt(gs.getProperty("rag.max_conn"), 10);
         this.M0 = 2 * this.M;
-        this.ef_construct = gs.getProperty("rag.ef_construct");
-        this.ef_search = gs.getProperty("rag.ef_search");
-        this.enter_node = gs.getProperty("rag.enter_node");
-        this.max_layer = gs.getProperty("rag.max_layer");
+        this.ef_construct = parseInt(gs.getProperty("rag.ef_construct"), 10);
+        this.ef_search = parseInt(gs.getProperty("rag.ef_search"), 10);
+        this.enter_node = gs.getProperty("rag.enter_node") || "";
+        this.max_layer = parseInt(gs.getProperty("rag.max_layer") || "0", 10);
         this.mL = 1 / Math.log(this.M);
         this.nodes = {};
 
@@ -149,8 +148,6 @@ RAGUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
         for (var j = 0; j < savedNodeIds.length; j++) {
             this.insert(savedNodeIds[j].id, savedNodeIds[j].vector);
         }
-        gs.setProperty("rag.enter_node", this.enter_node);
-        gs.setProperty("rag.max_layer", this.max_layer);
     },
 
     callLLM: function(systemPrompt, userPrompt) {
@@ -260,7 +257,9 @@ RAGUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
             var changed = false;
 
             var neighbourGr = new GlideRecord("u_hnsw_relations");
-            neighbourGr.addEncodedQuery("u_base_node=" + curr_node.sys_id.toString() + "^u_layer=" + layer);
+            // neighbourGr.addEncodedQuery("u_base_node=" + curr_node.sys_id.toString() + "^u_layer=" + layer);
+            neighbourGr.addQuery("u_base_node", curr_node);
+            neighbourGr.addQuery("u_layer", layer);
             neighbourGr.query();
 
             while (neighbourGr.next()) {
@@ -364,11 +363,13 @@ RAGUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
     insert: function(new_node_id, new_vector) {
         new_node_id = new_node_id.toString();
+        // this.total_nodes += 1;
 
         if (!this.enter_node) {
             this.enter_node = new_node_id;
             this.max_layer = 0;
-
+            gs.setProperty("rag.enter_node", this.enter_node);
+            gs.setProperty("rag.max_layer", "0");
             this._createNodePlaceholder(new_node_id);
             return;
         }
@@ -408,10 +409,11 @@ RAGUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
             }
         }
 
-        // If the new node climbed higher than the previous maximum layer, promote it
         if (insert_layer > this.max_layer) {
             this.max_layer = insert_layer;
             this.enter_node = new_node_id;
+            gs.setProperty("rag.enter_node", this.enter_node);
+            gs.setProperty("rag.max_layer", this.max_layer.toString());
         }
     },
 
@@ -477,8 +479,6 @@ RAGUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
         }
     },
 
-    // --- Private Database Helper Utilities ---
-
     _addRelation: function(base_node, neighbour_node, layer) {
         var relGr = new GlideRecord("u_hnsw_relations");
         relGr.initialize();
@@ -490,7 +490,7 @@ RAGUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
     _getLinkCount: function(node_id, layer) {
         var countGa = new GlideAggregate("u_hnsw_relations");
-        countGa.addQuery("u_base_node", node_id); // addQuery handles reference fields correctly
+        countGa.addQuery("u_base_node", node_id);
         countGa.addQuery("u_layer", layer);
         countGa.addAggregate("COUNT");
         countGa.query();

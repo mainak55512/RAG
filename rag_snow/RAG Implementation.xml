@@ -1,0 +1,2442 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-06-07 12:19:58">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>RAG Implementation</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>34e64cc593990350c987fc532bba10ca</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>ceb9c30293d94b10c987fc532bba100a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_8f87044993990350c987fc532bba1006</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Embeddings">8b87c04993990350c987fc532bba10fe</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Embeddings</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_embeddings</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>itil</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8f87044993990350c987fc532bba1006</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Embeddings</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_8f87044993990350c987fc532bba1006</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:40</sys_updated_on><timeline_page/><title>Embeddings</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>842017747</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>02b9c30293d94b10c987fc532bba100e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd6120000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>4f870449f69903508965d5ada758a60c</update_guid>
+<update_guid_history>4f870449f69903508965d5ada758a60c:842017747</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hnsw_relations_u_base_node_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_base_node" label="Base node" language="en" table="u_hnsw_relations"><sys_documentation action="INSERT_OR_UPDATE"><element>u_base_node</element><help/><hint/><label>Base node</label><language>en</language><name>u_hnsw_relations</name><plural>Base nodes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:50</sys_created_on><sys_id>0039804d93990350c987fc532bba1078</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Base node</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hnsw_relations_u_base_node_en</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:50</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-188271599</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>02b9c30293d94b10c987fc532bba10da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0469b20000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations.Base node</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>9c39804d7a9903503f9418cb83d59f9f</update_guid>
+<update_guid_history>9c39804d7a9903503f9418cb83d59f9f:-188271599</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_3f5a111d93994310c987fc532bba106e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="RAG properties">a231951193994310c987fc532bba1092</category><order>100</order><property display_value="rag.max_layer" name="rag.max_layer">205a919593d94310c987fc532bba10cc</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 20:18:02</sys_created_on><sys_id>3f5a111d93994310c987fc532bba106e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rag.max_layer.RAG properties</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_3f5a111d93994310c987fc532bba106e</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 20:18:02</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-116280260</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>02b9c30293d94b10c987fc532bba10df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9449259c0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.max_layer.RAG properties</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>fb5a111dd8994310ebfe0f2fb0bc5171</update_guid>
+<update_guid_history>fb5a111dd8994310ebfe0f2fb0bc5171:-116280260</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_0839804d93990350c987fc532bba105a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:50</sys_created_on><sys_id>0839804d93990350c987fc532bba105a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hnsw_relations.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_hnsw_relations">3329804d93990350c987fc532bba1055</sys_security_acl><sys_update_name>sys_security_acl_role_0839804d93990350c987fc532bba105a</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:50</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-958535103</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>02b9c30293d94b10c987fc532bba10e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0465540000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>u_hnsw_relations.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>4839804dae990350487e9ec65bf7b25e</update_guid>
+<update_guid_history>4839804dae990350487e9ec65bf7b25e:-958535103</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Upgrade Console">62336aa2cc80d210f877639778ef1feb</application>
+<category>customer</category>
+<comments/>
+<name>m2m_app_config_theme_9c1815c337483210b57b487c24924b7d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-22 07:07:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9c1815c337483210b57b487c24924b7d</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Upgrade Console" source="sn_upgrade_mgmt">62336aa2cc80d210f877639778ef1feb</sys_package><sys_policy/><sys_scope display_value="Upgrade Console">62336aa2cc80d210f877639778ef1feb</sys_scope><sys_update_name>m2m_app_config_theme_9c1815c337483210b57b487c24924b7d</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 18:42:45</sys_updated_on><theme display_value="Coral">fad87d2ca304121029a4d1aed31e610f</theme><ux_app_configuration display_value="Upgrade Management">74928f229f0012107e91971b8a0a1c36</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+<payload_hash>1582203481</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>06b9c30293d94b10c987fc532bba100b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e93f1e9d10000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name/>
+<type>UX App Theme</type>
+<update_domain>global</update_domain>
+<update_guid>8c9449155fd54310b756699c2cfd0320</update_guid>
+<update_guid_history>8c9449155fd54310b756699c2cfd0320:1582203481,4494491581d543106c1798a2e63ebd1d:-597510538</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_embeddings_u_chunk</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_chunk" table="u_embeddings"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Chunk&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_chunk&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;string_full_utf8&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;name&gt;u_embeddings&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 19:39:25&lt;/sys_created_on&gt;&lt;sys_id&gt;0ba7884993990350c987fc532bba1071&lt;/sys_id&gt;&lt;sys_name&gt;Chunk&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_embeddings_u_chunk&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-06 10:56:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1439920550</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>06b9c30293d94b10c987fc532bba10d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9c93a8bb0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings.Chunk</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>cc0dadbde755871028c27fe12e4daedb</update_guid>
+<update_guid_history>cc0dadbde755871028c27fe12e4daedb:1439920550,a8f7c08949990350bab61f326a27824e:-2093993038</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hnsw_relations__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="HNSW Relations" language="en" table="u_hnsw_relations"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>HNSW Relations</label><language>en</language><name>u_hnsw_relations</name><plural>HNSW Relations</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:50</sys_created_on><sys_id>4839804d93990350c987fc532bba1074</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HNSW Relations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hnsw_relations__en</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:50</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1484548770</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>06b9c30293d94b10c987fc532bba10db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0469cf0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>5839804dcb990350c6ff4c8599065ca2</update_guid>
+<update_guid_history>5839804dcb990350c6ff4c8599065ca2:1484548770</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_c369591593d94310c987fc532bba109c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="RAG properties">a231951193994310c987fc532bba1092</category><order>100</order><property display_value="rag.ef_search" name="rag.ef_search">1359195d93994310c987fc532bba103d</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 20:13:52</sys_created_on><sys_id>c369591593d94310c987fc532bba109c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rag.ef_search.RAG properties</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_c369591593d94310c987fc532bba109c</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 20:13:52</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-1009624175</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>06b9c30293d94b10c987fc532bba10e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e944558070000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.ef_search.RAG properties</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>836959157ad943103bcc03a914d6a09f</update_guid>
+<update_guid_history>836959157ad943103bcc03a914d6a09f:-1009624175</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_35744dd193d54310c987fc532bba10e5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 18:42:19</sys_created_on><sys_id>35744dd193d54310c987fc532bba10e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RAGUtil.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="RAGUtil">f97489d193d54310c987fc532bba1090</sys_security_acl><sys_update_name>sys_security_acl_role_35744dd193d54310c987fc532bba10e5</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 18:42:19</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1091476940</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>06b9c30293d94b10c987fc532bba10e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e93f184fd0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>RAGUtil</table>
+<target_name>RAGUtil.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b5744dd1fad543107d59149fbad921ea</update_guid>
+<update_guid_history>b5744dd1fad543107d59149fbad921ea:1091476940</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hnsw_relations_u_base_node</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_base_node" table="u_hnsw_relations"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Base node&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_base_node&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hnsw_relations&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="u_embeddings"&gt;u_embeddings&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 19:44:48&lt;/sys_created_on&gt;&lt;sys_id&gt;84c8040d93990350c987fc532bba10a7&lt;/sys_id&gt;&lt;sys_name&gt;Base node&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hnsw_relations_u_base_node&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-03 19:46:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1924239407</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>0ab9c30293d94b10c987fc532bba10d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f05b2710000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations.Base node</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>38898c4ddc9903506ccd83cb771f2ce7</update_guid>
+<update_guid_history>38898c4ddc9903506ccd83cb771f2ce7:1924239407,fb29404d5a9903500e5e1620bf7fd0c3:1607424130</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_120a5d5593d94310c987fc532bba10a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Entry point node for the HNSW graph</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>rag.enter_node</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 20:16:33</sys_created_on><sys_id>120a5d5593d94310c987fc532bba10a3</sys_id><sys_mod_count>14</sys_mod_count><sys_name>rag.enter_node</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_120a5d5593d94310c987fc532bba10a3</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-07 09:47:25</sys_updated_on><type>string</type><value>57c6220693554b10c987fc532bba10dc</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=120a5d5593d94310c987fc532bba10a3"/></record_update>]]></payload>
+<payload_hash>-1020216630</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>0ab9c30293d94b10c987fc532bba10dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea17ae1d00000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.enter_node</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>a7c662064c554b107eceac17c4fad7d3</update_guid>
+<update_guid_history>a7c662064c554b107eceac17c4fad7d3:-1020216630,69c6aec259554b103e7f05dfbd18b349:-526698071,89c66ec234554b10096fb3341dc137b2:-531397206,66b3ae86c3154b1041bdc2bed9c0e183:-2060278708,6273664606154b10c38fe8d0b7ad8dc1:-103209489,2933ea06df154b1086c08a7a3edbb6a6:-531397206,6b028ec2d05d0b1018d479ec03b3c45e:-22980301,3eaf758a911d0b10ea135e835ce131a6:1922515942,38defd06c51d0b10ed4b4815cfbda2c3:-1279485243,e4defd06781d0b101e4b5bf788700389:7345969,14ce7d06511d0b10e15ec59b77e3213c:-531397206,8aac4b35b1d1c710356582d751452bee:-1935800721,8e92b679dfdd8710b9a6fcee71af9388:-531397206,bf727e758fdd8710388dbf1c19fc8f59:-1869126206,520a5d55e7d94310971d418c8eea11a7:2111583850</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_1f87044993990350c987fc532bba1076</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_embeddings</description><local_or_existing>Existing</local_or_existing><name>u_embeddings</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:41</sys_created_on><sys_id>1f87044993990350c987fc532bba1076</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_embeddings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_1f87044993990350c987fc532bba1076</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:41</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-392528193</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>0ab9c30293d94b10c987fc532bba10e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd9ad0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>u_embeddings</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>97870449809903505b910d55ccdfc77a</update_guid>
+<update_guid_history>97870449809903505b910d55ccdfc77a:-392528193</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_3729804d93990350c987fc532bba1003</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>HNSW Relations</name><order/><roles>itil</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3729804d93990350c987fc532bba1003</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HNSW Relations</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_3729804d93990350c987fc532bba1003</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:49</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-1296614871</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>0ab9c30293d94b10c987fc532bba10e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0462790000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>HNSW Relations</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>3729804d55990350f00c88f1b7ac0a05</update_guid>
+<update_guid_history>3729804d55990350f00c88f1b7ac0a05:-1296614871</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_3f29404d93990350c987fc532bba10f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>HNSW Relations</name><order>100</order><roles>itil</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3f29404d93990350c987fc532bba10f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HNSW Relations</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_3f29404d93990350c987fc532bba10f9</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:49</sys_updated_on><title>HNSW Relations</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>842502350</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>0eb9c30293d94b10c987fc532bba100c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f04620a0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>HNSW Relations</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>fb29404d459903500b7a849aeda1befc</update_guid>
+<update_guid_history>fb29404d459903500b7a849aeda1befc:842502350</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_embeddings_u_chunk_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_chunk" label="Chunk" language="en" table="u_embeddings"><sys_documentation action="INSERT_OR_UPDATE"><element>u_chunk</element><help/><hint/><label>Chunk</label><language>en</language><name>u_embeddings</name><plural>Chunks</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:39:25</sys_created_on><sys_id>24f7008993990350c987fc532bba1099</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Chunk</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_embeddings_u_chunk_en</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:39:25</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1396950637</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>0eb9c30293d94b10c987fc532bba10d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8eff6f710000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings.Chunk</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>acf7c0890b99035048a51e90a351b651</update_guid>
+<update_guid_history>acf7c0890b99035048a51e90a351b651:-1396950637</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_7ff09ddd93594310c987fc532bba1007</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Vector dimension for RAG</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>rag.dim</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 19:37:55</sys_created_on><sys_id>7ff09ddd93594310c987fc532bba1007</sys_id><sys_mod_count>1</sys_mod_count><sys_name>rag.dim</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_7ff09ddd93594310c987fc532bba1007</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 19:50:40</sys_updated_on><type>integer</type><value>384</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=7ff09ddd93594310c987fc532bba1007"/></record_update>]]></payload>
+<payload_hash>922319671</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>0eb9c30293d94b10c987fc532bba10dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e94301e260000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.dim</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>6f14d5d5f299431031d49ddc52761290</update_guid>
+<update_guid_history>6f14d5d5f299431031d49ddc52761290:922319671,6431551182994310357a6c5b67d9832c:1609577257</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_8839804d93990350c987fc532bba1060</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_hnsw_relations</description><local_or_existing>Existing</local_or_existing><name>u_hnsw_relations</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:50</sys_created_on><sys_id>8839804d93990350c987fc532bba1060</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hnsw_relations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_8839804d93990350c987fc532bba1060</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:50</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1585604519</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>0eb9c30293d94b10c987fc532bba10e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0465900000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>u_hnsw_relations</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>0439804d1899035024bd4a364a42c264</update_guid>
+<update_guid_history>0439804d1899035024bd4a364a42c264:-1585604519</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_8face1bd93558710c987fc532bba104a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="8face1bd93558710c987fc532bba104a" sys_domain="global" table="u_embeddings" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_number</element><position>0</position><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-06 10:54:57</sys_created_on><sys_id>43ace1bd93558710c987fc532bba1055</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_embeddings" sys_domain="global" view="Default view">8face1bd93558710c987fc532bba104a</sys_ui_section><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-06 10:54:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_chunk</element><position>1</position><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-06 10:54:57</sys_created_on><sys_id>87ace1bd93558710c987fc532bba1056</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_embeddings" sys_domain="global" view="Default view">8face1bd93558710c987fc532bba104a</sys_ui_section><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-06 10:54:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_embedding</element><position>2</position><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-06 10:54:57</sys_created_on><sys_id>43ace1bd93558710c987fc532bba1057</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_embeddings" sys_domain="global" view="Default view">8face1bd93558710c987fc532bba104a</sys_ui_section><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-06 10:54:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_embeddings</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-06 10:54:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8face1bd93558710c987fc532bba104a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_embeddings</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_8face1bd93558710c987fc532bba104a</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-06 10:54:56</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-985238817</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>0eb9c30293d94b10c987fc532bba10e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9c9259040000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>0bace1bd9e55871032332b1747b85259</update_guid>
+<update_guid_history>0bace1bd9e55871032332b1747b85259:-985238817,cface1bd425587105fc3416d621fd34f:898293054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_8b87c04993990350c987fc532bba10fe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Embeddings</name><order>100</order><roles>itil</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8b87c04993990350c987fc532bba10fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Embeddings</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_8b87c04993990350c987fc532bba10fe</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:40</sys_updated_on><title>Embeddings</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-1168877591</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>42b9c30293d94b10c987fc532bba100d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd5ad0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>Embeddings</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>cb870449b399035064b3c92a6ab1d704</update_guid>
+<update_guid_history>cb870449b399035064b3c92a6ab1d704:-1168877591</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_embeddings_u_embedding_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_embedding" label="Embedding" language="en" table="u_embeddings"><sys_documentation action="INSERT_OR_UPDATE"><element>u_embedding</element><help/><hint/><label>Embedding</label><language>en</language><name>u_embeddings</name><plural>Embeddings</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:41:52</sys_created_on><sys_id>a08844c993990350c987fc532bba10c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Embedding</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_embeddings_u_embedding_en</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:41:52</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-679086549</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>42b9c30293d94b10c987fc532bba10d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f01adf30000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings.Embedding</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>688844c97799035058a3cbaff6fbdbe6</update_guid>
+<update_guid_history>688844c97799035058a3cbaff6fbdbe6:-679086549</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_b515919993994310c987fc532bba10ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Maximum connections to neighbours for a node</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>rag.max_conn</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 19:55:56</sys_created_on><sys_id>b515919993994310c987fc532bba10ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rag.max_conn</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_b515919993994310c987fc532bba10ae</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 19:55:56</sys_updated_on><type>integer</type><value>16</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=b515919993994310c987fc532bba10ae"/></record_update>]]></payload>
+<payload_hash>257131113</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>42b9c30293d94b10c987fc532bba10de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9434efe30000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.max_conn</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>6855d999c5994310bcdcc6021cbcaf9e</update_guid>
+<update_guid_history>6855d999c5994310bcdcc6021cbcaf9e:257131113</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9387044993990350c987fc532bba106b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_embeddings</description><local_or_existing>Existing</local_or_existing><name>u_embeddings</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:41</sys_created_on><sys_id>9387044993990350c987fc532bba106b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_embeddings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_9387044993990350c987fc532bba106b</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:41</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-319736303</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>42b9c30293d94b10c987fc532bba10e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd9440000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>u_embeddings</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>1f870449869903501c8a21077cad426e</update_guid>
+<update_guid_history>1f870449869903501c8a21077cad426e:-319736303</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_wdf_external_connection_mapping_784f4e2d93950710c987fc532bba10fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_wdf_external_connection_mapping"><sys_wdf_external_connection_mapping action="INSERT_OR_UPDATE"><asset_id>fa0f862d93950710c987fc532bba1010</asset_id><connection_name>HF_API_TOKEN</connection_name><connection_type>outbound</connection_type><connector_type>7bf7f2123decf210f87762d639ed247b</connector_type><external_system/><sys_class_name>sys_wdf_external_connection_mapping</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-05 18:47:35</sys_created_on><sys_domain>global</sys_domain><sys_id>784f4e2d93950710c987fc532bba10fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HF_API_TOKEN</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_wdf_external_connection_mapping_784f4e2d93950710c987fc532bba10fd</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-05 18:47:35</sys_updated_on><table_name>sys_alias</table_name></sys_wdf_external_connection_mapping></record_update>]]></payload>
+<payload_hash>-1995316373</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>42b9c30293d94b10c987fc532bba10e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e991cb2d50000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>HF_API_TOKEN</target_name>
+<type>Connection Mapping</type>
+<update_domain>global</update_domain>
+<update_guid>3c4f8e2d3b950710468eaaf18651361b</update_guid>
+<update_guid_history>3c4f8e2d3b950710468eaaf18651361b:-1995316373</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_2bb8c00d93990350c987fc532bba10a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>true</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Hnsw Relations</label><live_feed_enabled>false</live_feed_enabled><name>u_hnsw_relations</name><number_ref display_value="HNS">5c39804d93990350c987fc532bba10b3</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:49</sys_created_on><sys_id>2bb8c00d93990350c987fc532bba10a3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Hnsw Relations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_2bb8c00d93990350c987fc532bba10a3</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:51</sys_updated_on><update_access>true</update_access><user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>760647676</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>46b9c30293d94b10c987fc532bba100e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f046a460000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>Hnsw Relations</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>9c39804d6b99035086f0c9953c8cefb9</update_guid>
+<update_guid_history>9c39804d6b99035086f0c9953c8cefb9:760647676,9439804dcf99035045b42d26dcdd9ba5:-943712144</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hnsw_relations_u_layer_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_layer" label="Layer" language="en" table="u_hnsw_relations"><sys_documentation action="INSERT_OR_UPDATE"><element>u_layer</element><help/><hint/><label>Layer</label><language>en</language><name>u_hnsw_relations</name><plural>Layers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:48:07</sys_created_on><sys_id>c8f9cc8d93990350c987fc532bba1022</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Layer</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hnsw_relations_u_layer_en</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:48:07</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1234471375</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>46b9c30293d94b10c987fc532bba10da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0768540000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations.Layer</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>c4f9cc8d779903501bafaa2a94da262f</update_guid>
+<update_guid_history>c4f9cc8d779903501bafaa2a94da262f:1234471375</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_9849d11593d94310c987fc532bba1059</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="RAG properties">a231951193994310c987fc532bba1092</category><order>100</order><property display_value="rag.ef_construct" name="rag.ef_construct">1d67111193d94310c987fc532bba1054</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 20:13:09</sys_created_on><sys_id>9849d11593d94310c987fc532bba1059</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rag.ef_construct.RAG properties</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_9849d11593d94310c987fc532bba1059</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 20:13:09</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>1086410316</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>46b9c30293d94b10c987fc532bba10df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9444ad4e0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.ef_construct.RAG properties</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>1849d11567d943103e140de21ea6e75c</update_guid>
+<update_guid_history>1849d11567d943103e140de21ea6e75c:1086410316</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_0b87044993990350c987fc532bba103e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:40</sys_created_on><sys_id>0b87044993990350c987fc532bba103e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_embeddings.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_embeddings">0f87044993990350c987fc532bba1028</sys_security_acl><sys_update_name>sys_security_acl_role_0b87044993990350c987fc532bba103e</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:40</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1605597992</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>46b9c30293d94b10c987fc532bba10e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd88b0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>u_embeddings.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>c3870449fc9903509001ad06b6dfc244</update_guid>
+<update_guid_history>c3870449fc9903509001ad06b6dfc244:-1605597992</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_embeddings_u_embedding</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_embedding" table="u_embeddings"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Embedding&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_embedding&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;string_full_utf8&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;name&gt;u_embeddings&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 19:41:52&lt;/sys_created_on&gt;&lt;sys_id&gt;4ff7448993990350c987fc532bba10f2&lt;/sys_id&gt;&lt;sys_name&gt;Embedding&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_embeddings_u_embedding&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-06 10:56:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1320138278</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>4ab9c30293d94b10c987fc532bba10d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9c93aa1c0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings.Embedding</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>980dedbd75558710885e3a45da233011</update_guid>
+<update_guid_history>980dedbd75558710885e3a45da233011:1320138278,e48844c94c990350bfcf5610d26225ca:84425010</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_kmf_module_key_policy_60311e2193d50710c987fc532bba1031</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_module_key_policy"><sys_kmf_module_key_policy action="INSERT_OR_UPDATE"><crypto_module display_value="global.com_snc_core_automation_glideencrypter">bddc8db07722201099808d11681061bc</crypto_module><key_type display_value="Symmetric Key Encryption Key">ca005cf7c7103300af4d43c6f0976328</key_type><last_enforced>2026-06-05 18:56:02</last_enforced><result>reject</result><sys_class_name>sys_kmf_module_key_policy</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-05 18:56:02</sys_created_on><sys_id>60311e2193d50710c987fc532bba1031</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_kmf_module_key_policy_60311e2193d50710c987fc532bba1031</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-05 18:56:02</sys_updated_on></sys_kmf_module_key_policy></record_update>]]></payload>
+<payload_hash>41153820</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>4ab9c30293d94b10c987fc532bba10db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e992471950000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name/>
+<type>Crypto Module Key Policy</type>
+<update_domain>global</update_domain>
+<update_guid>683112a139d50710c8e6fae44051c52c</update_guid>
+<update_guid_history>683112a139d50710c8e6fae44051c52c:41153820</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_04348d5193d54310c987fc532bba109c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.RAGUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;RAGUtil&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var RAGUtil = Class.create();
+RAGUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    initialize: function() {
+        this.M = parseInt(gs.getProperty("rag.max_conn"), 10);
+        this.M0 = 2 * this.M;
+        this.ef_construct = parseInt(gs.getProperty("rag.ef_construct"), 10);
+        this.ef_search = parseInt(gs.getProperty("rag.ef_search"), 10);
+        this.enter_node = gs.getProperty("rag.enter_node") || "";
+        this.max_layer = parseInt(gs.getProperty("rag.max_layer") || "0", 10);
+        this.mL = 1 / Math.log(this.M);
+        this.nodes = {};
+
+    },
+
+    dotProduct: function(vecA, vecB) {
+        let totalSum = 0;
+        let vecLen = Math.min(vecA.length, vecB.length);
+        for (i = 0; i &lt; vecLen; i++) {
+            totalSum += vecA[i] * vecB[i];
+        }
+        return totalSum;
+    },
+
+    magnitude: function(vec) {
+        return Math.sqrt(vec.reduce((sum, x) =&gt; sum + x ** 2, 0));
+    },
+
+    getRandomLayer: function() {
+        let r = Math.random();
+        if (r == 0) r = 0.0000001;
+        return Math.floor(-Math.log(r) * this.mL);
+    },
+
+    cosineSimilarity: function(vecA, vecB, isNormalized = true) {
+        if (isNormalized) return this.dotProduct(vecA, vecB);
+
+        let magA = this.magnitude(vecA);
+        let magB = this.magnitude(vecB);
+
+        if (magA == 0 || magB == 0) return 0.0;
+        return this.dotProduct(vecA, vecB) / (magA * magB);
+    },
+
+    cosineDistance: function(vec_a, node_b_id) {
+        var nodeGr = new GlideRecord("u_embeddings");
+        nodeGr.get(node_b_id);
+        var vec_b = JSON.parse(nodeGr.u_embedding);
+        return 1.0 - this.cosineSimilarity(vec_a, vec_b);
+    },
+
+    createChunks: function(text, chunkSize, overlap) {
+        if (!text) return [];
+
+        var words = text.match(/\b[\w'-]+\b/g) || [];
+        var textLen = words.length;
+        var start = 0;
+        var chunkList = [];
+
+        while (start &lt; textLen) {
+            var end = Math.min(start + chunkSize, textLen);
+
+            var chunk = words.slice(start, end).join(' ');
+            chunkList.push(chunk);
+
+            start = start + chunkSize - overlap;
+
+            if (chunkSize &lt;= overlap) {
+                break;
+            }
+        }
+
+        return chunkList;
+    },
+
+    createEmbeddings: function(chunkList) {
+        var provider = new sn_cc.StandardCredentialsProvider();
+        var credential = provider.getCredentialByAliasID("fa0f862d93950710c987fc532bba1010");
+
+        var token = credential.getAttribute('api_key');
+
+        if (!token) {
+            throw new Error("Unable to retrieve Hugging Face token from connection alias 'HF_API_TOKEN'.");
+        }
+
+        var endpoint = "https://router.huggingface.co/hf-inference/models/sentence-transformers/all-MiniLM-L6-v2/pipeline/feature-extraction";
+
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint(endpoint);
+        request.setHttpMethod('POST');
+
+        request.setRequestHeader('Authorization', 'Bearer ' + token);
+        request.setRequestHeader('Content-Type', 'application/json');
+
+        var payload = {
+            "inputs": {
+                "sentences": chunkList
+            },
+            "options": {
+                "wait_for_model": true
+            }
+        };
+        request.setRequestBody(JSON.stringify(payload));
+
+        var response = request.execute();
+        var statusCode = response.getStatusCode();
+        var responseBody = response.getBody();
+
+        token = null;
+
+        if (statusCode !== 200) {
+            throw new Error("HF API Error: " + statusCode + " - " + responseBody);
+        }
+
+        return JSON.parse(responseBody);
+
+    },
+
+    createQueryEmbedding: function(query) {
+        var embeddings = this.createEmbeddings([query]);
+
+        if (embeddings &amp;&amp; embeddings.length &gt; 0) {
+            return embeddings[0];
+        }
+
+        return null;
+    },
+
+    storeEmbeddings: function(chunkList, rawEmbeddings) {
+        var arrLen = Math.min(chunkList.length, rawEmbeddings.length);
+        var savedNodeIds = [];
+
+        // Phase 1: Write all embeddings safely to the database
+        for (var i = 0; i &lt; arrLen; i++) {
+            var chunkGr = new GlideRecord('u_embeddings');
+            chunkGr.initialize();
+            chunkGr.u_chunk = chunkList[i];
+            chunkGr.u_embedding = JSON.stringify(rawEmbeddings[i]);
+
+            var new_id = chunkGr.insert();
+            savedNodeIds.push({
+                id: new_id,
+                vector: rawEmbeddings[i]
+            });
+        }
+
+        // Phase 2: Now build the HNSW graph safely with existing DB records
+        for (var j = 0; j &lt; savedNodeIds.length; j++) {
+            this.insert(savedNodeIds[j].id, savedNodeIds[j].vector);
+        }
+    },
+
+    callLLM: function(systemPrompt, userPrompt) {
+        var provider = new sn_cc.StandardCredentialsProvider();
+        var credential = provider.getCredentialByAliasID("d90e657193958710c987fc532bba1076");
+
+        var token = credential.getAttribute('api_key');
+
+        if (!token) {
+            throw new Error("Unable to retrieve Groq token from connection alias.");
+        }
+
+        var apiUrl = "https://api.groq.com/openai/v1/chat/completions";
+
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint(apiUrl);
+        request.setHttpMethod('POST');
+
+        request.setRequestHeader('Authorization', 'Bearer ' + token);
+        request.setRequestHeader('Content-Type', 'application/json');
+
+        var payload = {
+            "model": "openai/gpt-oss-120b",
+            "messages": [{
+                    "role": "system",
+                    "content": systemPrompt
+                },
+                {
+                    "role": "user",
+                    "content": userPrompt
+                }
+            ]
+        };
+        request.setRequestBody(JSON.stringify(payload));
+
+        var response = request.execute();
+        var statusCode = response.getStatusCode();
+        var responseBody = response.getBody();
+
+        token = null;
+
+        if (statusCode !== 200) {
+            throw new Error("GROQ API Error: " + statusCode + " - " + responseBody);
+        }
+
+        var jsonResponse = JSON.parse(responseBody);
+        if (jsonResponse &amp;&amp; jsonResponse.choices &amp;&amp; jsonResponse.choices.length &gt; 0) {
+            return jsonResponse.choices[0].message.content;
+        }
+
+        throw new Error("Unexpected empty choices layout returned from Groq API response.");
+
+    },
+
+    getSimilarity: function(queryEmbedding, k) {
+        var scoredChunks = [];
+
+        var grDoc = new GlideRecord("u_embeddings");
+
+        grDoc.query();
+
+        while (grDoc.next()) {
+            var docText = grDoc.getValue('u_chunk');
+            var embBlob = grDoc.getValue('u_embedding');
+
+            if (!docText || !embBlob) {
+                continue;
+            }
+
+            var embArray;
+            try {
+                embArray = JSON.parse(embBlob);
+            } catch (e) {
+                embArray = embBlob.split(',').map(Number);
+            }
+
+            var score = this.cosineSimilarity(queryEmbeddings, embArray);
+
+            scoredChunks.push({
+                document: docText,
+                score: score
+            });
+        }
+
+        if (scoredChunks.length === 0) {
+            return [];
+        }
+
+        scoredChunks.sort(function(a, b) {
+            return b.score - a.score;
+        });
+
+        var topChunks = [];
+        var limit = Math.min(k, scoredChunks.length);
+        for (var i = 0; i &lt; limit; i++) {
+            topChunks.push(scoredChunks[i].document);
+        }
+
+        return topChunks;
+    },
+
+    searchLayer: function(query_vector, enter_node, layer) {
+        var curr_node = enter_node;
+        var curr_dist = this.cosineDistance(query_vector, curr_node);
+
+        while (true) {
+            var changed = false;
+
+            var neighbourGr = new GlideRecord("u_hnsw_relations");
+            // neighbourGr.addEncodedQuery("u_base_node=" + curr_node.sys_id.toString() + "^u_layer=" + layer);
+            neighbourGr.addQuery("u_base_node", curr_node);
+            neighbourGr.addQuery("u_layer", layer);
+            neighbourGr.query();
+
+            while (neighbourGr.next()) {
+                // let neighbour_dist = this.cosineDistance(query_vector, neighbourGr.sys_id.toString());
+                let neighbour_dist = this.cosineDistance(query_vector, neighbourGr.getValue("u_neighbour_node"));
+
+                if (neighbour_dist &lt; curr_dist) {
+                    curr_dist = neighbour_dist;
+                    // curr_node = neighbourGr.sys_id.toString();
+                    curr_node = neighbourGr.getValue("u_neighbour_node");
+                    changed = true;
+                }
+            }
+
+            if (!changed) {
+                break;
+            }
+        }
+
+        return curr_node;
+    },
+
+    searchLayerEf: function(query_vector, enter_node, layer, ef) {
+        var enter_node_id = enter_node.toString();
+
+        var visited = {};
+        visited[enter_node_id] = true;
+
+        var init_dist = this.cosineDistance(query_vector, enter_node_id);
+
+        var v_pool = [{
+            id: enter_node_id,
+            dist: init_dist
+        }];
+        var candidates = [{
+            id: enter_node_id,
+            dist: init_dist
+        }];
+
+        while (candidates.length &gt; 0) {
+            candidates.sort(function(a, b) {
+                return a.dist - b.dist;
+            });
+
+            var curr = candidates.shift();
+            var curr_node_id = curr.id;
+            var curr_dist = curr.dist;
+
+            if (curr_dist &gt; v_pool[v_pool.length - 1].dist) {
+                break;
+            }
+
+            var neighbourGr = new GlideRecord("u_hnsw_relations");
+            neighbourGr.addQuery("u_base_node", curr_node_id);
+            neighbourGr.addQuery("u_layer", layer);
+            neighbourGr.query();
+
+            while (neighbourGr.next()) {
+                // var neighbour_id = neighbourGr.u_neighbour.toString();
+                var neighbour_id = neighbourGr.getValue("u_neighbour_node");
+
+                if (!neighbour_id) {
+                    gs.warn("Skipping null neighbour for base_node=" + curr_node_id + " layer=" + layer);
+                    continue;
+                }
+
+                if (!visited[neighbour_id]) {
+                    visited[neighbour_id] = true;
+
+                    var neighbour_dist = this.cosineDistance(query_vector, neighbour_id);
+                    var far_dist = v_pool[v_pool.length - 1].dist;
+
+                    if (neighbour_dist &lt; far_dist || v_pool.length &lt; ef) {
+                        var newCandidate = {
+                            id: neighbour_id,
+                            dist: neighbour_dist
+                        };
+
+                        candidates.push(newCandidate);
+                        v_pool.push(newCandidate);
+
+                        v_pool.sort(function(a, b) {
+                            return a.dist - b.dist;
+                        });
+
+                        if (v_pool.length &gt; ef) {
+                            v_pool.pop();
+                        }
+                    }
+                }
+            }
+        }
+
+        var resultNodes = [];
+        for (var i = 0; i &lt; v_pool.length; i++) {
+            resultNodes.push(v_pool[i].id);
+        }
+
+        return resultNodes;
+    },
+
+    insert: function(new_node_id, new_vector) {
+        new_node_id = new_node_id.toString();
+        // this.total_nodes += 1; // Or increment a counter in a system property/config record
+
+        if (!this.enter_node) {
+            this.enter_node = new_node_id;
+            this.max_layer = 0;
+            gs.setProperty("rag.enter_node", this.enter_node);
+            gs.setProperty("rag.max_layer", "0");
+            this._createNodePlaceholder(new_node_id);
+            return;
+        }
+
+        var insert_layer = this.getRandomLayer();
+
+        var curr_obj = this.enter_node.toString();
+
+        for (var l = this.max_layer; l &gt; insert_layer; l--) {
+            curr_obj = this.searchLayer(new_vector, curr_obj, l);
+        }
+
+        var start_layer = Math.min(this.max_layer, insert_layer);
+        for (var l = start_layer; l &gt;= 0; l--) {
+
+            var candidates = this.searchLayerEf(new_vector, curr_obj, l, this.ef_construct);
+            var curr_max_links = (l === 0) ? this.M0 : this.M;
+
+            var top_neighbors = this.getTopK(new_vector, candidates, curr_max_links);
+            if (top_neighbors.length &gt; 0) {
+                curr_obj = top_neighbors[0];
+            }
+
+            for (var i = 0; i &lt; top_neighbors.length; i++) {
+                var closest_node = top_neighbors[i].toString();
+
+                this._addRelation(new_node_id, closest_node, l);
+                this._addRelation(closest_node, new_node_id, l);
+
+                if (this._getLinkCount(closest_node, l) &gt; curr_max_links) {
+                    this.pruneToMaxConnection(closest_node, l, curr_max_links);
+                }
+            }
+
+            if (this._getLinkCount(new_node_id, l) &gt; curr_max_links) {
+                this.pruneToMaxConnection(new_node_id, l, curr_max_links);
+            }
+        }
+
+        // If the new node climbed higher than the previous maximum layer, promote it
+        if (insert_layer &gt; this.max_layer) {
+            this.max_layer = insert_layer;
+            this.enter_node = new_node_id;
+            gs.setProperty("rag.enter_node", this.enter_node);
+            gs.setProperty("rag.max_layer", this.max_layer.toString());
+        }
+    },
+
+    getTopK: function(query_vector, neighbor_pool, k) {
+        var scored_neighbors = [];
+
+        for (var i = 0; i &lt; neighbor_pool.length; i++) {
+            var n_id = neighbor_pool[i].toString();
+
+            var dist = this.cosineDistance(query_vector, n_id);
+
+            scored_neighbors.push({
+                id: n_id,
+                dist: dist
+            });
+        }
+
+        scored_neighbors.sort(function(a, b) {
+            return a.dist - b.dist;
+        });
+
+        var topKNodes = [];
+        var limit = Math.min(scored_neighbors.length, k);
+
+        for (var j = 0; j &lt; limit; j++) {
+            topKNodes.push(scored_neighbors[j].id.toString());
+        }
+
+        return topKNodes;
+    },
+
+    pruneToMaxConnection: function(node_id, layer, curr_max_links) {
+        node_id = node_id.toString();
+
+        var base_vector = null;
+        var embedGr = new GlideRecord("u_embeddings");
+        if (embedGr.get(node_id)) {
+            base_vector = JSON.parse(embedGr.u_embedding);
+        } else {
+            return;
+        }
+
+        var neighbor_pool = [];
+        var neighborGr = new GlideRecord("u_hnsw_relations");
+        neighborGr.addQuery("u_base_node", node_id);
+        neighborGr.addQuery("u_layer", layer);
+        neighborGr.query();
+
+        while (neighborGr.next()) {
+            neighbor_pool.push(neighborGr.getValue("u_neighbour_node"));
+        }
+
+        var keep_neighbors = this.getTopK(base_vector, neighbor_pool, curr_max_links);
+
+        var pruneGr = new GlideRecord("u_hnsw_relations");
+        pruneGr.addQuery("u_base_node", node_id);
+        pruneGr.addQuery("u_layer", layer);
+        pruneGr.addQuery("u_neighbour_node", "NOT IN", keep_neighbors.join(','));
+        pruneGr.query();
+
+        while (pruneGr.next()) {
+            pruneGr.deleteRecord();
+        }
+    },
+
+    // --- Private Database Helper Utilities ---
+
+    _addRelation: function(base_node, neighbour_node, layer) {
+        var relGr = new GlideRecord("u_hnsw_relations");
+        relGr.initialize();
+        relGr.setValue("u_base_node", base_node);
+        relGr.setValue("u_neighbour_node", neighbour_node);
+        relGr.setValue("u_layer", layer);
+        relGr.insert();
+    },
+
+    _getLinkCount: function(node_id, layer) {
+        var countGa = new GlideAggregate("u_hnsw_relations");
+        countGa.addQuery("u_base_node", node_id); // addQuery handles reference fields correctly
+        countGa.addQuery("u_layer", layer);
+        countGa.addAggregate("COUNT");
+        countGa.query();
+        if (countGa.next()) {
+            return parseInt(countGa.getAggregate("COUNT"), 10);
+        }
+        return 0;
+    },
+
+    _createNodePlaceholder: function(node_id) {
+        var embedGr = new GlideRecord("u_embeddings");
+        if (!embedGr.get(node_id)) {
+            embedGr.initialize();
+            embedGr.setNewGuidValue(node_id);
+            embedGr.insert();
+        }
+    },
+
+    search: function(query, k) {
+        var query_vector = this.createQueryEmbedding(query);
+
+        // var totalNodes = this._getTotalNodeCount();
+        // if (totalNodes &lt; 1000) {
+        //     gs.info("[!] Total nodes are less than 1000, falling back to bruteforce search");
+        //     return this.getSimilarity(query_vector, k);
+        // }
+
+        if (!this.enter_node) {
+            return [];
+        }
+
+        var curr_obj = this.enter_node.toString();
+        var current_max_layer = parseInt(this.max_layer, 10) || 0;
+
+        for (var l = current_max_layer; l &gt; 0; l--) {
+            curr_obj = this.searchLayer(query_vector, curr_obj, l);
+        }
+
+        var efSearchLimit = parseInt(this.ef_search, 10) || 16;
+        var candidates = this.searchLayerEf(query_vector, curr_obj, 0, efSearchLimit);
+
+        var top_k_ids = this.getTopK(query_vector, candidates, k);
+
+        var finalChunks = [];
+        for (var i = 0; i &lt; top_k_ids.length; i++) {
+            var chunkText = this.getChunk(top_k_ids[i]);
+            if (chunkText) {
+                finalChunks.push(chunkText);
+            }
+        }
+
+        return finalChunks;
+    },
+
+    _getTotalNodeCount: function() {
+        var countGa = new GlideAggregate("u_embeddings");
+        countGa.addAggregate("COUNT");
+        countGa.query();
+        if (countGa.next()) {
+            return parseInt(countGa.getAggregate("COUNT"), 10);
+        }
+        return 0;
+    },
+
+    getChunk: function(node_id) {
+        var embedGr = new GlideRecord("u_embeddings");
+        if (embedGr.get(node_id.toString())) {
+            return embedGr.getValue("u_chunk");
+        }
+        return null;
+    },
+
+
+    type: 'RAGUtil'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-04 18:42:17&lt;/sys_created_on&gt;&lt;sys_id&gt;04348d5193d54310c987fc532bba109c&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;RAGUtil&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_04348d5193d54310c987fc532bba109c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-07 06:39:50&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;04348d5193d54310c987fc532bba109c&lt;/id&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-04 18:42:16&lt;/sys_created_on&gt;&lt;sys_id&gt;497489d193d54310c987fc532bba108d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-04 18:42:16&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1144414846</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>4ab9c30293d94b10c987fc532bba10e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea0cf26da0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>RAGUtil</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>04ebbd0ef9d90b105f7da528e28444f3</update_guid>
+<update_guid_history>04ebbd0ef9d90b105f7da528e28444f3:-1144414846,b33e0ff5a7d1c71002dfe6c8e6ba542d:956828210,718c47359bd1c7101af6cbcab2459f56:-103056830,6bcb47b124d1c71081e2bb76c288c3c7:1535035882,e0c743791691c710d63d7556ea964b6f:2135204228,f4760b756b91c71013128460f31af702:1607871741,89f487bd2e51c710b6803a44ea7a5996:685323266,819dfaf9c211c710ea7d581b062f3fcc:1757233657,aaa93639f011c7100cd0b2ad6839ea4f:-1953602854,1477faf1e611c7108888d0b12bb84e6f:384054396,ffc3baf96cdd871091d3f237d23de01c:1049104140,c073f2f9e9dd8710265d7f7914b5e6eb:976579813,4ff076f12c998710c89f6192c07790f8:-228826502,bd9f66b185dd8710be3e536af12ec6a8:-395878733,ed7c2af9c19d8710db0b732ea6a2fb96:-2083064680,55f7e63118d5871007f3a79b3078f306:2095197314,1c032af533d587106a4000bb3ec3b046:794582243,dd30aabd781d87105e6588335c110d7c:1213177159,936f567d0c1d871055c0e56a9486eb29:6299506,13c6f93549d58710834bbe4b99dcb5a6:1377632304,be7f69b104958710395d1beca9613593:-1112024380,4f2b29b924558710694d0ee7f4f2f76c:1239304904,23ead269ea190710d9999fc9a1376d03:-462357572,3f8a5629a8190710002d1c4b3b1a44b1:-513816146,2dec991d68d943106675df3a97b4e8d6:-1828036904,48c9c59d4b19431036327cf6181d9f39:76456443,9c768d510f1943105ed3b7c25e5a8d8b:1495469132,3d744dd1c3d543105cfd7ffc1a4e41ed:-261317001</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_3729804d93990350c987fc532bba1011</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:49</sys_created_on><sys_id>3729804d93990350c987fc532bba1011</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hnsw_relations.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_hnsw_relations">3b29804d93990350c987fc532bba100b</sys_security_acl><sys_update_name>sys_security_acl_role_3729804d93990350c987fc532bba1011</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:49</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1538723360</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>4ab9c30293d94b10c987fc532bba10e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f04634c0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>u_hnsw_relations.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>f729804db5990350ad32a3afd623eb2e</update_guid>
+<update_guid_history>f729804db5990350ad32a3afd623eb2e:1538723360</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hnsw_relations_u_layer</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_layer" table="u_hnsw_relations"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Layer&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_layer&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hnsw_relations&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 19:48:07&lt;/sys_created_on&gt;&lt;sys_id&gt;61c9888d93990350c987fc532bba1054&lt;/sys_id&gt;&lt;sys_name&gt;Layer&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hnsw_relations_u_layer&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-03 19:48:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-76764471</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>4eb9c30293d94b10c987fc532bba10d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f07682e0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations.Layer</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c0f9cc8dd4990350891fec871da0602c</update_guid>
+<update_guid_history>c0f9cc8dd4990350891fec871da0602c:-76764471</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_1359195d93994310c987fc532bba103d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Maximum size of the dynamic candidate list at search</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>rag.ef_search</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 20:13:38</sys_created_on><sys_id>1359195d93994310c987fc532bba103d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rag.ef_search</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_1359195d93994310c987fc532bba103d</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 20:13:38</sys_updated_on><type>integer</type><value>128</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=1359195d93994310c987fc532bba103d"/></record_update>]]></payload>
+<payload_hash>-498659345</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>4eb9c30293d94b10c987fc532bba10dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e94451f7f0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.ef_search</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>2f59191523d94310295e8c57a48a700b</update_guid>
+<update_guid_history>2f59191523d94310295e8c57a48a700b:-498659345</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3329804d93990350c987fc532bba1055</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_hnsw_relations</description><local_or_existing>Existing</local_or_existing><name>u_hnsw_relations</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:50</sys_created_on><sys_id>3329804d93990350c987fc532bba1055</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hnsw_relations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_3329804d93990350c987fc532bba1055</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:50</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-299006293</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>4eb9c30293d94b10c987fc532bba10e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0465140000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>u_hnsw_relations</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>8839804d8399035019b47e2c61467d58</update_guid>
+<update_guid_history>8839804d8399035019b47e2c61467d58:-299006293</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_4787044993990350c987fc532bba100f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Embeddings</name><order/><roles>itil</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4787044993990350c987fc532bba100f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Embeddings</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_4787044993990350c987fc532bba100f</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:40</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>272684915</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>4eb9c30293d94b10c987fc532bba10e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd6690000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>Embeddings</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>43870449b5990350a7a3fba5bb01f613</update_guid>
+<update_guid_history>43870449b5990350a7a3fba5bb01f613:272684915</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_alias_d90e657193958710c987fc532bba1076</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><description/><id>GROQ_API_TOKEN</id><is_internal>false</is_internal><multiple_connections>false</multiple_connections><name>GROQ_API_TOKEN</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-06 11:01:11</sys_created_on><sys_id>d90e657193958710c987fc532bba1076</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GROQ_API_TOKEN</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_alias_d90e657193958710c987fc532bba1076</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-06 11:01:11</sys_updated_on><type>credential</type></sys_alias></record_update>]]></payload>
+<payload_hash>-489487201</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>82b9c30293d94b10c987fc532bba100c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9c980fed0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>GROQ_API_TOKEN</target_name>
+<type>Connection &amp; Credential Aliases</type>
+<update_domain>global</update_domain>
+<update_guid>e61e29718a9587106a8c65a62320c031</update_guid>
+<update_guid_history>e61e29718a9587106a8c65a62320c031:-489487201</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hnsw_relations_u_neighbour_node</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_neighbour_node" table="u_hnsw_relations"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Neighbour node&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_neighbour_node&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_hnsw_relations&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="u_embeddings"&gt;u_embeddings&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 19:47:12&lt;/sys_created_on&gt;&lt;sys_id&gt;b099808d93990350c987fc532bba102a&lt;/sys_id&gt;&lt;sys_name&gt;Neighbour node&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hnsw_relations_u_neighbour_node&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-03 19:47:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>632058178</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>82b9c30293d94b10c987fc532bba10d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0691240000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations.Neighbour node</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>36b9c48d69990350e54b29d90ae3fb6b</update_guid>
+<update_guid_history>36b9c48d69990350e54b29d90ae3fb6b:632058178</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_1d67111193d94310c987fc532bba1054</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Maximum size of the dynamic candidate list at construction</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>rag.ef_construct</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 20:12:51</sys_created_on><sys_id>1d67111193d94310c987fc532bba1054</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rag.ef_construct</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_1d67111193d94310c987fc532bba1054</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 20:12:51</sys_updated_on><type>integer</type><value>200</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=1d67111193d94310c987fc532bba1054"/></record_update>]]></payload>
+<payload_hash>-1748304505</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>82b9c30293d94b10c987fc532bba10dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e94446cc70000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.ef_construct</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>18399d9175d94310335e0c3f752dcd85</update_guid>
+<update_guid_history>18399d9175d94310335e0c3f752dcd85:-1748304505</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3b29804d93990350c987fc532bba100b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_hnsw_relations</description><local_or_existing>Existing</local_or_existing><name>u_hnsw_relations</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:49</sys_created_on><sys_id>3b29804d93990350c987fc532bba100b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hnsw_relations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_3b29804d93990350c987fc532bba100b</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:49</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1173367419</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>82b9c30293d94b10c987fc532bba10e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0463030000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>u_hnsw_relations</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>b729804d6e990350864223f0a651670f</update_guid>
+<update_guid_history>b729804d6e990350864223f0a651670f:1173367419</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_0b87044993990350c987fc532bba1021</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Embeddings">4787044993990350c987fc532bba100f</application><filter/><name>Embeddings</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>itil</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0b87044993990350c987fc532bba1021</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Embeddings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_0b87044993990350c987fc532bba1021</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:40</sys_updated_on><table>u_embeddings</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-1844058408</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>82b9c30293d94b10c987fc532bba10e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd6cb0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>43870449e699035051b8979087685626</update_guid>
+<update_guid_history>43870449e699035051b8979087685626:-1844058408</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_2556915d93994310c987fc532bba10cf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Properties">d546447bc0a8016900046469895b557a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>RAG Properties</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query>system_properties_ui.do?sysparm_title=Properties&amp;sysparm_category=RAG%20properties&amp;sysparm_domain_restore=false&amp;sysparm_stack=no</query><report/><require_confirmation>true</require_confirmation><roles/><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 20:02:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2556915d93994310c987fc532bba10cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RAG Properties</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_2556915d93994310c987fc532bba10cf</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 20:02:52</sys_updated_on><timeline_page/><title>RAG Properties</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>686522003</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>86b9c30293d94b10c987fc532bba100d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e943b437e0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>RAG Properties</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>b5e6d59db1994310e74f82f6afc5e736</update_guid>
+<update_guid_history>b5e6d59db1994310e74f82f6afc5e736:686522003</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_embeddings_u_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_number" label="Number" language="en" table="u_embeddings"><sys_documentation action="INSERT_OR_UPDATE"><element>u_number</element><help/><hint/><label>Number</label><language>en</language><name>u_embeddings</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:43</sys_created_on><sys_id>a387044993990350c987fc532bba10ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_embeddings_u_number_en</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:43</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>304258781</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>86b9c30293d94b10c987fc532bba10d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efde13a0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b7870449949903503e0d0fe26104cff8</update_guid>
+<update_guid_history>b7870449949903503e0d0fe26104cff8:304258781</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_a231951193994310c987fc532bba1092</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_properties_category"&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;&lt;name&gt;RAG properties&lt;/name&gt;&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-04 19:38:37&lt;/sys_created_on&gt;&lt;sys_id&gt;a231951193994310c987fc532bba1092&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;RAG properties&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_properties_category_a231951193994310c987fc532bba1092&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-04 19:58:01&lt;/sys_updated_on&gt;&lt;title&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;Customization properties for RAG&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;]]&gt;&lt;/title&gt;&lt;/sys_properties_category&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a231951193994310c987fc532bba1092"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1303404201</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>86b9c30293d94b10c987fc532bba10de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9436d2cd0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>RAG properties</target_name>
+<type>System Property Category</type>
+<update_domain>global</update_domain>
+<update_guid>fac51dd9aa9943106cc1bb1ecc1e651d</update_guid>
+<update_guid_history>fac51dd9aa9943106cc1bb1ecc1e651d:1303404201,6193d595719943107c76a6e0413adb8a:-599323831,ee519911a8994310a55638da8e969d18:-1304418467</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f97489d193d54310c987fc532bba1090</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>RAGUtil</name><operation display_value="execute">execute</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 18:42:19</sys_created_on><sys_id>f97489d193d54310c987fc532bba1090</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RAGUtil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_f97489d193d54310c987fc532bba1090</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 18:42:19</sys_updated_on><type display_value="client_callable_script_include">client_callable_script_include</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>621165616</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>86b9c30293d94b10c987fc532bba10e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e93f1845b0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>RAGUtil</table>
+<target_name>RAGUtil</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>bd744dd166d5431042e276327f2717e2</update_guid>
+<update_guid_history>bd744dd166d5431042e276327f2717e2:621165616</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_f037080993990350c987fc532bba10b7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Embeddings</label><live_feed_enabled>false</live_feed_enabled><name>u_embeddings</name><number_ref display_value="EMB">6b87044993990350c987fc532bba10d8</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:40</sys_created_on><sys_id>f037080993990350c987fc532bba10b7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Embeddings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_f037080993990350c987fc532bba10b7</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:42</sys_updated_on><update_access>false</update_access><user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1360268437</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>8ab9c30293d94b10c987fc532bba100e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efddf4e0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>6b87044949990350b966532fd06f9ee1</update_guid>
+<update_guid_history>6b87044949990350b966532fd06f9ee1:1360268437,238704496f9903506d8ac4560f3fbdd6:-1033744583</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hnsw_relations_u_neighbour_node_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_neighbour_node" label="Neighbour node" language="en" table="u_hnsw_relations"><sys_documentation action="INSERT_OR_UPDATE"><element>u_neighbour_node</element><help/><hint/><label>Neighbour node</label><language>en</language><name>u_hnsw_relations</name><plural>Neighbour nodes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:47:12</sys_created_on><sys_id>e6b9c48d93990350c987fc532bba1051</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Neighbour node</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hnsw_relations_u_neighbour_node_en</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:47:12</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1847267409</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>8ab9c30293d94b10c987fc532bba10da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0691470000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations.Neighbour node</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3ab9c48de299035065c5bd64a446206e</update_guid>
+<update_guid_history>3ab9c48de299035065c5bd64a446206e:-1847267409</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_a3b5d9d993994310c987fc532bba10c9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="HNSW properties">a231951193994310c987fc532bba1092</category><order>100</order><property display_value="rag.max_conn" name="rag.max_conn">b515919993994310c987fc532bba10ae</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 19:57:48</sys_created_on><sys_id>a3b5d9d993994310c987fc532bba10c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rag.max_conn.HNSW properties</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_a3b5d9d993994310c987fc532bba10c9</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 19:57:48</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-1298465029</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>8ab9c30293d94b10c987fc532bba10df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9436a0210000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.max_conn.HNSW properties</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>63b5d9d94599431058e235f5474f60cc</update_guid>
+<update_guid_history>63b5d9d94599431058e235f5474f60cc:-1298465029</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_1787044993990350c987fc532bba107c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:41</sys_created_on><sys_id>1787044993990350c987fc532bba107c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_embeddings.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_embeddings">1f87044993990350c987fc532bba1076</sys_security_acl><sys_update_name>sys_security_acl_role_1787044993990350c987fc532bba107c</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:41</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>874461536</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>8ab9c30293d94b10c987fc532bba10e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd9e00000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>u_embeddings.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>5787044912990350a99ec9b1ad38db80</update_guid>
+<update_guid_history>5787044912990350a99ec9b1ad38db80:874461536</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_embeddings_u_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_number" table="u_embeddings"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;ignore_filter_on_new=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:global.getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_embeddings&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 19:37:43&lt;/sys_created_on&gt;&lt;sys_id&gt;2f87044993990350c987fc532bba10e4&lt;/sys_id&gt;&lt;sys_name&gt;Number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_embeddings_u_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-03 19:37:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1325212904</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>8eb9c30293d94b10c987fc532bba10d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efde11c0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b387044956990350fae26cb4af5522f5</update_guid>
+<update_guid_history>b387044956990350fae26cb4af5522f5:1325212904</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_5c39804d93990350c987fc532bba10b3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_hnsw_relations">u_hnsw_relations</category><maximum_digits>7</maximum_digits><number>0</number><prefix>HNS</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:51</sys_created_on><sys_id>5c39804d93990350c987fc532bba10b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HNS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_number_5c39804d93990350c987fc532bba10b3</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:51</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>67058793</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>8eb9c30293d94b10c987fc532bba10db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f046c650000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>HNS</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>dc39804d7b9903502fa92247a2c570f6</update_guid>
+<update_guid_history>dc39804d7b9903502fa92247a2c570f6:67058793</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_0b87044993990350c987fc532bba105f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_embeddings</description><local_or_existing>Existing</local_or_existing><name>u_embeddings</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:41</sys_created_on><sys_id>0b87044993990350c987fc532bba105f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_embeddings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_0b87044993990350c987fc532bba105f</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:41</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1008701675</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>8eb9c30293d94b10c987fc532bba10e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd8d00000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>u_embeddings</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>83870449959903506235182cf1e7eb63</update_guid>
+<update_guid_history>83870449959903506235182cf1e7eb63:-1008701675</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_8039804d93990350c987fc532bba1066</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:50</sys_created_on><sys_id>8039804d93990350c987fc532bba1066</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hnsw_relations.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_hnsw_relations">8839804d93990350c987fc532bba1060</sys_security_acl><sys_update_name>sys_security_acl_role_8039804d93990350c987fc532bba1066</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:50</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1605126584</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>8eb9c30293d94b10c987fc532bba10e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0465c90000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>u_hnsw_relations.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>c039804dcc99035071c629c07d8cd26a</update_guid>
+<update_guid_history>c039804dcc99035071c629c07d8cd26a:-1605126584</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hnsw_relations_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_hnsw_relations"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hnsw_relations&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 19:44:50&lt;/sys_created_on&gt;&lt;sys_id&gt;4039804d93990350c987fc532bba106c&lt;/sys_id&gt;&lt;sys_name&gt;u_hnsw_relations&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hnsw_relations_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-03 19:44:50&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-392554475</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>c2b9c30293d94b10c987fc532bba10d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f04698b0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>5c39804da89903509a99d797f9fce79c</update_guid>
+<update_guid_history>5c39804da89903509a99d797f9fce79c:-392554475</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_6b87044993990350c987fc532bba10d8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_embeddings">u_embeddings</category><maximum_digits>7</maximum_digits><number>0</number><prefix>EMB</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:42</sys_created_on><sys_id>6b87044993990350c987fc532bba10d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EMB</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_number_6b87044993990350c987fc532bba10d8</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:42</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>-1789259907</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>c2b9c30293d94b10c987fc532bba10dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efde1570000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>EMB</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>bb870449229903502028bdebc8428efb</update_guid>
+<update_guid_history>bb870449229903502028bdebc8428efb:-1789259907</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_0f87044993990350c987fc532bba1028</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_embeddings</description><local_or_existing>Existing</local_or_existing><name>u_embeddings</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:40</sys_created_on><sys_id>0f87044993990350c987fc532bba1028</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_embeddings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_0f87044993990350c987fc532bba1028</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:40</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-320900639</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>c2b9c30293d94b10c987fc532bba10e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd7420000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>u_embeddings</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>0b870449df99035047df3c1aeef7363c</update_guid>
+<update_guid_history>0b870449df99035047df3c1aeef7363c:-320900639</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_9b87044993990350c987fc532bba1070</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:41</sys_created_on><sys_id>9b87044993990350c987fc532bba1070</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_embeddings.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_embeddings">9387044993990350c987fc532bba106b</sys_security_acl><sys_update_name>sys_security_acl_role_9b87044993990350c987fc532bba1070</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:41</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>5669902</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>c2b9c30293d94b10c987fc532bba10e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd9730000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>u_embeddings.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>db8704498b990350ad1a39c60d593774</update_guid>
+<update_guid_history>db8704498b990350ad1a39c60d593774:5669902</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_alias_fa0f862d93950710c987fc532bba1010</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><description/><id>HF_API_TOKEN</id><is_internal>false</is_internal><multiple_connections>true</multiple_connections><name>HF_API_TOKEN</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-05 18:47:35</sys_created_on><sys_id>fa0f862d93950710c987fc532bba1010</sys_id><sys_mod_count>4</sys_mod_count><sys_name>HF_API_TOKEN</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_alias_fa0f862d93950710c987fc532bba1010</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-05 19:22:56</sys_updated_on><type>credential</type></sys_alias></record_update>]]></payload>
+<payload_hash>2089625023</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>c6b9c30293d94b10c987fc532bba100c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e993d115f0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>HF_API_TOKEN</target_name>
+<type>Connection &amp; Credential Aliases</type>
+<update_domain>global</update_domain>
+<update_guid>a65796ad85d507100785606bc852bc93</update_guid>
+<update_guid_history>a65796ad85d507100785606bc852bc93:2089625023,01349669dcd5071012f52dbad5d3b12e:-898922024,a0e0126178d50710f64e2ff6dd7f7e07:2089625023,94b01e21ead50710ca67d05bca9ede01:-284770405,344f8e2da6950710507c5174cf2aba1f:-898922024</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hnsw_relations_u_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_number" table="u_hnsw_relations"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;ignore_filter_on_new=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:global.getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hnsw_relations&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 19:44:51&lt;/sys_created_on&gt;&lt;sys_id&gt;9039804d93990350c987fc532bba10bc&lt;/sys_id&gt;&lt;sys_name&gt;Number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hnsw_relations_u_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-03 19:44:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>800900776</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>c6b9c30293d94b10c987fc532bba10d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f046bfa0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>1439804d5c99035028f24738a39ce7cb</update_guid>
+<update_guid_history>1439804d5c99035028f24738a39ce7cb:800900776</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_205a919593d94310c987fc532bba10cc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Maximum depth of graph</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>rag.max_layer</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 20:17:48</sys_created_on><sys_id>205a919593d94310c987fc532bba10cc</sys_id><sys_mod_count>11</sys_mod_count><sys_name>rag.max_layer</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_205a919593d94310c987fc532bba10cc</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-07 09:47:25</sys_updated_on><type>integer</type><value>1</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=205a919593d94310c987fc532bba10cc"/></record_update>]]></payload>
+<payload_hash>-1251787347</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>c6b9c30293d94b10c987fc532bba10dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea17ae31b0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.max_layer</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>b3c6620695554b10c62b13f973e28af4</update_guid>
+<update_guid_history>b3c6620695554b10c62b13f973e28af4:-1251787347,09c6aec213554b1033a533dc1c3faf11:-1272124722,e2b3ae8630154b105d6d166111e93b8b:-1251787347,b1332e06b8154b109e436cbee6094a12:-1272124722,7b02cec2fd5d0b10c3dd4f5489e2d214:-1211112597,baaf758a8a1d0b102eb4ce697b6f8eae:-1231449972,89defd06471d0b102270c39393d715f0:-1251787347,74defd06de1d0b1087f81cb58514c391:-1272124722,d0ceb9061a1d0b10822fc6f69aa7d8df:-560799298,9eac8b3552d1c710e1c285eb6ebc901c:-1272124722,01ab4f7126d1c710ca2d51ada389a23c:-560799298,605a919543d94310b57fe82600981ad0:-1414967242</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3b29804d93990350c987fc532bba1030</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_hnsw_relations</description><local_or_existing>Existing</local_or_existing><name>u_hnsw_relations</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:50</sys_created_on><sys_id>3b29804d93990350c987fc532bba1030</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hnsw_relations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_3b29804d93990350c987fc532bba1030</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:50</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-173683281</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>c6b9c30293d94b10c987fc532bba10e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f04647d0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>u_hnsw_relations</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>b329804d85990350ec91f3673ac90734</update_guid>
+<update_guid_history>b329804d85990350ec91f3673ac90734:-173683281</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_7329804d93990350c987fc532bba1007</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HNSW Relations">3729804d93990350c987fc532bba1003</application><filter/><name>HNSW Relations</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>itil</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7329804d93990350c987fc532bba1007</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HNSW Relations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_7329804d93990350c987fc532bba1007</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:49</sys_updated_on><table>u_hnsw_relations</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-1530992562</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>c6b9c30293d94b10c987fc532bba10e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0462ac0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>3729804d889903501ad124626104b409</update_guid>
+<update_guid_history>3729804d889903501ad124626104b409:-1530992562</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_3b29404d93990350c987fc532bba10fe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HNSW Relations">3f29404d93990350c987fc532bba10f9</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>HNSW Relations</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_hnsw_relations</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>itil</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3b29404d93990350c987fc532bba10fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HNSW Relations</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_3b29404d93990350c987fc532bba10fe</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:49</sys_updated_on><timeline_page/><title>HNSW Relations</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1280904674</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>cab9c30293d94b10c987fc532bba100d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f04624a0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>f329804dd599035032218adfd03c1101</update_guid>
+<update_guid_history>f329804dd599035032218adfd03c1101:1280904674</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_embeddings__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Embeddings" language="en" table="u_embeddings"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Embeddings</label><language>en</language><name>u_embeddings</name><plural>Embeddings</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:42</sys_created_on><sys_id>1f87044993990350c987fc532bba1093</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Embeddings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_embeddings__en</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-924119454</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>cab9c30293d94b10c987fc532bba10d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efddeb10000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>638704498d990350cd085a0c8e8b87d3</update_guid>
+<update_guid_history>638704498d990350cd085a0c8e8b87d3:-924119454</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_2e51991193994310c987fc532bba101a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="HNSW properties">a231951193994310c987fc532bba1092</category><order>1</order><property display_value="rag.dim" name="rag.dim">7ff09ddd93594310c987fc532bba1007</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 19:38:37</sys_created_on><sys_id>2e51991193994310c987fc532bba101a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rag.dim.HNSW properties</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_2e51991193994310c987fc532bba101a</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 19:38:37</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>1940575078</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>cab9c30293d94b10c987fc532bba10de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e942510950000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.dim.HNSW properties</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>a251d911d69943107d072d260b91b224</update_guid>
+<update_guid_history>a251d911d69943107d072d260b91b224:1940575078</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_0387044993990350c987fc532bba1065</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:37:41</sys_created_on><sys_id>0387044993990350c987fc532bba1065</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_embeddings.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_embeddings">0b87044993990350c987fc532bba105f</sys_security_acl><sys_update_name>sys_security_acl_role_0387044993990350c987fc532bba1065</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:37:41</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>494704881</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>cab9c30293d94b10c987fc532bba10e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdd9010000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>u_embeddings.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>53870449479903505814b7d423855c69</update_guid>
+<update_guid_history>53870449479903505814b7d423855c69:494704881</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_embeddings_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_embeddings"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_embeddings&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mainak.bhattacharjee&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 19:37:41&lt;/sys_created_on&gt;&lt;sys_id&gt;5b87044993990350c987fc532bba1082&lt;/sys_id&gt;&lt;sys_name&gt;u_embeddings&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_embeddings_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mainak.bhattacharjee&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-03 19:37:41&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1013665809</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>ceb9c30293d94b10c987fc532bba10d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8efdde920000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_embeddings</table>
+<target_name>Embeddings</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2f87044936990350fa28470bb60a3dcf</update_guid>
+<update_guid_history>2f87044936990350fa28470bb60a3dcf:-1013665809</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hnsw_relations_u_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_number" label="Number" language="en" table="u_hnsw_relations"><sys_documentation action="INSERT_OR_UPDATE"><element>u_number</element><help/><hint/><label>Number</label><language>en</language><name>u_hnsw_relations</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:51</sys_created_on><sys_id>9039804d93990350c987fc532bba10c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hnsw_relations_u_number_en</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:51</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-396638039</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>ceb9c30293d94b10c987fc532bba10da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f046c320000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>HNSW Relations.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>5c39804d01990350a293fb718f3866f3</update_guid>
+<update_guid_history>5c39804d01990350a293fb718f3866f3:-396638039</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_a91a519593d94310c987fc532bba10e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="RAG properties">a231951193994310c987fc532bba1092</category><order>100</order><property display_value="rag.enter_node" name="rag.enter_node">120a5d5593d94310c987fc532bba10a3</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-04 20:16:47</sys_created_on><sys_id>a91a519593d94310c987fc532bba10e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rag.enter_node.RAG properties</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_a91a519593d94310c987fc532bba10e7</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-04 20:16:47</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>581358748</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>ceb9c30293d94b10c987fc532bba10df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e9448010f0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table/>
+<target_name>rag.enter_node.RAG properties</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>691a51958cd94310db5844b49fde16ea</update_guid>
+<update_guid_history>691a51958cd94310db5844b49fde16ea:581358748</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_3329804d93990350c987fc532bba1036</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mainak.bhattacharjee</sys_created_by><sys_created_on>2026-06-03 19:44:50</sys_created_on><sys_id>3329804d93990350c987fc532bba1036</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hnsw_relations.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_hnsw_relations">3b29804d93990350c987fc532bba1030</sys_security_acl><sys_update_name>sys_security_acl_role_3329804d93990350c987fc532bba1036</sys_update_name><sys_updated_by>mainak.bhattacharjee</sys_updated_by><sys_updated_on>2026-06-03 19:44:50</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-993068267</payload_hash>
+<remote_update_set display_value="RAG Implementation">ceb9c30293d94b10c987fc532bba100a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mainak.bhattacharjee</sys_created_by>
+<sys_created_on>2026-06-07 12:19:57</sys_created_on>
+<sys_id>ceb9c30293d94b10c987fc532bba10e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e8f0464dd0000001</sys_recorded_at>
+<sys_updated_by>mainak.bhattacharjee</sys_updated_by>
+<sys_updated_on>2026-06-07 12:19:57</sys_updated_on>
+<table>u_hnsw_relations</table>
+<target_name>u_hnsw_relations.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>ff29804d9199035000b99addc3d81152</update_guid>
+<update_guid_history>ff29804d9199035000b99addc3d81152:-993068267</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
